@@ -16,4 +16,4 @@ You can find various frequently asked questions in one of the following topics:
    Transfer data <faq/transfer-data.rst>
    Publish data <faq/publish-data.rst>
    Share data with external reviewers <faq/share-data-external-reviewers.rst>
-   Access shared data <faq/access-shared-data.rst>
+   Access shared data  <faq/access-shared-data.rst>
