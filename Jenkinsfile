@@ -47,24 +47,24 @@ node {
         throw e
     } finally {
         echo "Mailing release job status"
-        def mailRecipients = environmentPrefix.equals(rdrEnvironment) ? env.configurableContentMailRdr :
-            env.configurableContentMailDr
+        def recipients = environmentPrefix.equals(rdrEnvironment) ? env.configurableContentRecipientsRdr :
+            env.configurableContentRecipientsDr
         def jobName = currentBuild.fullDisplayName
-
+        def subject = 'RDR configurable content build '
+        def subjectResult = 'success'
+        body = '''${SCRIPT, template="groovy-html.template"}'''
         if (env.BUILD_FAILURE == null) {
-            echo "Mailing succes"
-            emailext body: '''${SCRIPT, template="groovy-html.template"}''',
-            mimeType: 'text/html',
-            subject: "[Jenkins] ${jobName}",
-            to: "${mailRecipients}",
-            replyTo: "${mailRecipients}",
-            recipientProviders: [[$class: 'CulpritsRecipientProvider']]
-        } else {
-            echo "Mailing build failure"
-            emailext body: "${jobName} failed: ${env.BUILD_FAILURE}",
-                subject: "[Jenkins] ${jobName}",
-                to: "${mailRecipients}",
-                replyTo: "${mailRecipients}"
+            subjectResult = 'failed'
+            body = body = body.replace("<body>", "<body><p>${env.supportEmailRdr}</p>")
         }
+        subject += subjectResult
+        echo subject
+
+        emailext body: body,
+            mimeType: 'text/html',
+            subject: subject,
+            to: recipients,
+            replyTo: env.supportEmailRdr,
+            recipientProviders: [[$class: 'CulpritsRecipientProvider']]
     }
 }
