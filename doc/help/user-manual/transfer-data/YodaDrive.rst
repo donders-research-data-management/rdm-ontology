@@ -15,10 +15,10 @@ Install YodaDrive
    
    .. figure:: images/Yoda_instellingen_anoniem.png
    
-   *	Drive letter: Select a drive letter - any free letter is okay.
-   *	URL: Either enter https://webdav.data-acc.ru.nl to access all your collections or enter the link to a specific collection you are working on.
-   *	Login: Your u-number or z-number followed by @ru.nl
-   *	Password: Your password belonging to your RDR account
-   * Check the following boxes: Remember Password (only if you are working on a personal PC or laptop), Auto-mount drive and Start with Windows
+   *	*Drive letter*: Select a drive letter - any free letter is okay.
+   *	*URL*: Either enter https://webdav.data-acc.ru.nl to access all your collections or enter the link to a specific collection you are working on.
+   *	*Login*: Your u-number or z-number followed by @ru.nl
+   *	*Password*: Your password belonging to your RDR account
+   *  Check the following boxes: *Remember Password* (only if you are working on a personal PC or laptop), *Auto-mount drive* and *Start with Windows*
 
 #. Click *Save*, then *Mount* and you can now view the Yoda Network Disk in Explorer. 
