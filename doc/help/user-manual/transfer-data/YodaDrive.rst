@@ -3,7 +3,7 @@
 YodaDrive
 =========
 
-YodaDrive is a WebDAV client for Windows, allowing the user to mount a remove WebDAV server as a local drive.
+YodaDrive is a WebDAV client for Windows, allowing the user to mount a remote WebDAV server as a local drive.
 
 YodaDrive is recommended over :ref:`mounting a network drive <mount-network-drive>` directly using Windows, because it solves the problems with directories with too many files, files that are too large and in general it’s more stable.
 
@@ -16,7 +16,7 @@ Install YodaDrive
    .. figure:: images/Yoda_instellingen_anoniem.png
    
    *	*Drive letter*: Select a drive letter - any free letter is okay.
-   *	*URL*: Either enter https://webdav.data-acc.ru.nl to access all your collections or enter the link to a specific collection you are working on.
+   *	*URL*: Either enter ${repositoryWebdavUrl} to access all your collections or enter the link to a specific collection you are working on.
    *	*Login*: Your u-number or z-number followed by @ru.nl
    *	*Password*: Your password belonging to your RDR account
    *  Check the following boxes: *Remember Password* (only if you are working on a personal PC or laptop), *Auto-mount drive* and *Start with Windows*
