@@ -21,6 +21,7 @@ Below are instructions for how to use the recommended tools for transferring dat
     Cyberduck (Windows and MacOSX) <transfer-data/cyberduck.rst>
     Thunar (Linux - GUI) <transfer-data/thunar.rst>
     Cadaver (Linux - command line) <transfer-data/cadaver.rst>
+    YodaDrive <transfer-data/YodaDrive.rst>
 
 After up- or downloading your files, make sure the transfer was completed accurately.
 
