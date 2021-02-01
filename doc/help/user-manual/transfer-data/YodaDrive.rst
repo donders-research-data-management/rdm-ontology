@@ -10,7 +10,9 @@ YodaDrive is recommended over :ref:`mounting a network drive <mount-network-driv
 Install YodaDrive
 -----------------
 #. Download and install YodaDrive from <https://github.com/UtrechtUniversity/YodaDrive/releases/download/0.2.6.2/YodaDrive-0.2.6.2.zip. You need administrator privileges to complete the installation procedure. Contact the ICT helpdesk in case you temporarily need them.
-#. After installation open YodaDrive by clicking on the system tray icon and choosing *Manage*. 
+#. After installation open YodaDrive by clicking on the system tray icon
+   .. figure:: images/Yoda_system tray icon.png
+   and choosing *Manage*. 
 #. Enter the following information, as seen on the screenshot:
    
    .. figure:: images/Yoda_instellingen_anoniem.png
