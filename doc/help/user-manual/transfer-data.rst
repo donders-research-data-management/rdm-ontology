@@ -32,7 +32,7 @@ Best practice is to not work directly on a network drive, but to store your file
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
     YodaDrive <transfer-data/YodaDrive.rst>
     Mount network drive (Windows and MacOSX) <transfer-data/mount-network-drive.rst>
