@@ -30,3 +30,25 @@ Transfer data
 | have permissions to use this network  | character or name in it                   |
 | resource.                             |                                           |
 +---------------------------------------+-------------------------------------------+
+| Could not find this item. This is no  | The file probably exceeds the path length |
+| longer located in …                   |                                           |
++---------------------------------------+                                           |
+| Invalid file handle                   |                                           |
++---------------------------------------+                                           |
+| The file name you specified is not    |                                           |
+| valid or too long                     |                                           |
++---------------------------------------+                                           |
+| This file name is reserved for use by |                                           |
+| Windows.                              |                                           |
++---------------------------------------+                                           |
+| Unexpected error. The parameter is    |                                           |
+| incorrect.                            |                                           |
++---------------------------------------+                                           |
+| The file is too large for the         |                                           |
+| destination file system               |                                           |
++---------------------------------------+                                           |
+| FileStream was asked to open a device |                                           |
+| that was not a file                   |                                           |
++---------------------------------------+                                           |
+| Path does not exist                   |                                           |
++---------------------------------------+-------------------------------------------+
