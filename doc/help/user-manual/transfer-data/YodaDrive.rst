@@ -1,4 +1,4 @@
-..  YodaDrive:
+.. _YodaDrive:
 
 YodaDrive
 =========
