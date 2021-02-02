@@ -12,16 +12,34 @@ To transfer data, you should use a HTTP-based file transfer called `WebDAV <http
 
     Data access account <transfer-data/data-access-account.rst>
 
-Below are instructions for how to use the recommended tools for transferring data to and from the repository. Depending on your operating system, please select one of the options.
+Depending on your operating system, a number of tools are available for transferring data to and from the repository. Please select your preferred one and click on it to get more information.
+
++--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
+| Tool                                                               | User Interface  | Mounts network drive  | Windows support | MacOS support   | Linux support   |
++====================================================================+=================+=======================+=================+=================+=================+
+| :ref:`YodaDrive <transfer-data/YodaDrive.rst>`                     | Graphical       | X                     | X               |                 |                 |
++--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
+| :ref:`Cyberduck <transfer-data/cyberduck.rst>`                     | Graphical       |                       | X               | X               |                 |
++--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
+| :ref:`Mount network drive <transfer-data/mount-network-drive.rst>` | Graphical       | X                     | X!              | X               |                 |
++--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
+| :ref:`Thunar <transfer-data/thunar.srt>`                           | Graphical       | X                     |                 |                 | X               |
++--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
+| :ref:`Cadaver <transfer-data/cadaver.srt>`                         | Command line    |                       |                 |                 | X               |
++--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
+
+Best practice is to not work directly on a network drive, but to store your files there whenever you’re done. When you would work directly on a network drive, each update results in a file transfer to a remote system which does involve some latency. Moreover, some tools create files that should not be stored, but that would be transferred anyway. For instance, MAC creates a .DS_Store file, and Word creates ~$temp.docx.
+
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
+    YodaDrive <transfer-data/YodaDrive.rst>
     Mount network drive (Windows and MacOSX) <transfer-data/mount-network-drive.rst>
     Cyberduck (Windows and MacOSX) <transfer-data/cyberduck.rst>
     Thunar (Linux - GUI) <transfer-data/thunar.rst>
     Cadaver (Linux - command line) <transfer-data/cadaver.rst>
-    YodaDrive <transfer-data/YodaDrive.rst>
+    
 
 After up- or downloading your files, make sure the transfer was completed accurately.
 
