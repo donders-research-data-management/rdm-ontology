@@ -26,7 +26,7 @@ Transfer data
 | Access denied. Please verify disk     | The file you want to download is probably |
 | permissions                           | too large                                 |
 +---------------------------------------+-------------------------------------------+
-| … is not accessible. You might not    | The file probably has a reserved character|
-| have permissions to use this network  |  or name in it                            |
+| … is not accessible. You might not    | The file probably has a reserved          |
+| have permissions to use this network  | character or name in it                   |
 | resource.                             |                                           |
 +---------------------------------------+-------------------------------------------+
