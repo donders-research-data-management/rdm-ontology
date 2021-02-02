@@ -1,4 +1,4 @@
-.. windows-known-issues
+.. _windown-known-issues:
 
 Windows known issues
 ====================
@@ -83,16 +83,16 @@ Files that exceed the path length
 
 Files uploaded using another operating system such as Linux might not be downloadable to any path in Windows. This is illustrated below:
 
-+-------------------+---------------+-------------------+---------------------+-----------------+
-| Operating system	| File systems	| Max length total	| Max length filename	| Max length path |
-+===================+===============+===================+=====================+=================+
-| Linux	            | EXT4,         | 4096              | 255                 | 4096            |
-|                   | most others   |                   |                     |                 |
-+-------------------+---------------+-------------------+---------------------+-----------------+
-| Windows 10	      | NTFS	        | 260               |                     | 260             |
-+-------------------+---------------+-------------------+---------------------+-----------------+
-| MacOS             |	APFS, HFS+	  | unlimited	        | 255                 |                 |	
-+-------------------+---------------+-------------------+---------------------+-----------------+
++-------------------+---------------+-------------------+---------------------+-------------------+
+| Operating system	| File systems	| Max length total	| Max length filename | Max length path   |
++===================+===============+===================+=====================+===================+
+| Linux	            | EXT4,         | 4096              | 255                 | 4096              |
+|                   | most others   |                   |                     |                   |
++-------------------+---------------+-------------------+---------------------+-------------------+
+| Windows 10	    | NTFS	        | 260               |                     | 260               |
++-------------------+---------------+-------------------+---------------------+-------------------+
+| MacOS             | APFS, HFS+	| unlimited	        | 255                 |                   |	
++-------------------+---------------+-------------------+---------------------+-------------------+
 
 For example, when you try to download a file with path length 300 Windows will do nothing, without giving you a specific error message.
 
