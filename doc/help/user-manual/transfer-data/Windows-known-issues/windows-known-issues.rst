@@ -110,8 +110,3 @@ References
 
 https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation
 https://en.wikipedia.org/wiki/Comparison_of_file_systems#Limits 
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-    Mount network drive <transfer-data/mount-network-drive.rst>
