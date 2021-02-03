@@ -33,6 +33,7 @@ Best practice is to not work directly on a network drive, but to store your file
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
     YodaDrive <transfer-data/YodaDrive.rst>
     Cyberduck (Windows and MacOSX) <transfer-data/cyberduck.rst>
