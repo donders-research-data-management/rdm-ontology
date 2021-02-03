@@ -21,18 +21,21 @@ Depending on your operating system, a number of tools are available for transfer
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
 | :ref:`Cyberduck <cyberduck>`                                       | Graphical       |                       | X               | X               |                 |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
-| :ref:`Mount network drive <mount-network-drive>`                   | Graphical       | X                     | X!              | X               |                 |
+| :ref:`Mount network drive <mount-network-drive>`                   | Graphical       | X                     | X!*             | X               |                 |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
 | :ref:`Thunar <thunar>`                                             | Graphical       | X                     |                 |                 | X               |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
 | :ref:`Cadaver <cadaver>`                                           | Command line    |                       |                 |                 | X               |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
 
+\* *This is not the preferred option for Windows as it can cause several issues. We suggest either using YodaDrive or Cyberduck.*
+
 Best practice is to not work directly on a network drive, but to store your files there whenever you’re done. When you would work directly on a network drive, each update results in a file transfer to a remote system which does involve some latency. Moreover, some tools create files that should not be stored, but that would be transferred anyway. For instance, MAC creates a .DS_Store file, and Word creates ~$temp.docx.
 
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
     YodaDrive <transfer-data/YodaDrive.rst>
     Cyberduck (Windows and MacOSX) <transfer-data/cyberduck.rst>
