@@ -24,5 +24,5 @@ Install YodaDrive
    *	*Login*: Your u-number or z-number followed by @ru.nl
    *	*Password*: Your password belonging to your RU account
    *  Check the following boxes: *Remember Password* (only if you are working on a personal PC or laptop), *Auto-mount drive* and *Start with Windows*
-
+|
 4. Click *Save*, then *Mount* and you can now view the Yoda Network Disk in Explorer. 
