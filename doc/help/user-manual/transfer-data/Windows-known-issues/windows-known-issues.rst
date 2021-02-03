@@ -1,4 +1,4 @@
-.. _windown-known-issues:
+.. _windows-known-issues:
 
 Windows known issues
 ====================
