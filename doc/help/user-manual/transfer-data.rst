@@ -17,15 +17,15 @@ Depending on your operating system, a number of tools are available for transfer
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
 | Tool                                                               | User Interface  | Mounts network drive  | Windows support | MacOS support   | Linux support   |
 +====================================================================+=================+=======================+=================+=================+=================+
-| :ref:`YodaDrive <transfer-data/YodaDrive.rst>`                     | Graphical       | X                     | X               |                 |                 |
+| :ref:`YodaDrive <YodaDrive>`                                       | Graphical       | X                     | X               |                 |                 |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
-| :ref:`Cyberduck <transfer-data/cyberduck.rst>`                     | Graphical       |                       | X               | X               |                 |
+| :ref:`Cyberduck <cyberduck>`                                       | Graphical       |                       | X               | X               |                 |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
-| :ref:`Mount network drive <transfer-data/mount-network-drive.rst>` | Graphical       | X                     | X!              | X               |                 |
+| :ref:`Mount network drive <mount-network-drive>`                   | Graphical       | X                     | X!              | X               |                 |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
-| :ref:`Thunar <transfer-data/thunar.srt>`                           | Graphical       | X                     |                 |                 | X               |
+| :ref:`Thunar <thunar>`                                             | Graphical       | X                     |                 |                 | X               |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
-| :ref:`Cadaver <transfer-data/cadaver.srt>`                         | Command line    |                       |                 |                 | X               |
+| :ref:`Cadaver <cadaver>`                                           | Command line    |                       |                 |                 | X               |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
 
 Best practice is to not work directly on a network drive, but to store your files there whenever you’re done. When you would work directly on a network drive, each update results in a file transfer to a remote system which does involve some latency. Moreover, some tools create files that should not be stored, but that would be transferred anyway. For instance, MAC creates a .DS_Store file, and Word creates ~$temp.docx.
