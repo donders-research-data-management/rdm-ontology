@@ -8,6 +8,7 @@ Windows known issues
     
     Mounting a network drive on Windows is known to be unstable and often problematic. It is suggested to use other WebDAV client (such as :ref:`YodaDrive <YodaDrive>` or :ref:`Cyberduck <cyberduck>`) to transfer data on Windows. If you decide to use it anyway be aware of the issues below.
 
+|
 .. _too-many-files
 
 Directories with too many files
@@ -25,6 +26,7 @@ References
 
 https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-access-webdav-web-folder 
 
+|
 .. _too-large-files
 
 Files that are too large
@@ -43,6 +45,7 @@ References
 
 https://support.microsoft.com/en-us/topic/you-cannot-download-more-than-50-mb-or-upload-large-files-when-the-upload-takes-longer-than-30-minutes-using-web-client-in-windows-7-8709ae9d-e808-c5a0-95d0-9a7143c50b11 
 
+|
 .. _reserved-characters
 
 Files with reserved characters
@@ -77,6 +80,7 @@ References
 
 https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file 
 
+|
 .. _exceed-path-length
 
 Files that exceed the path length
@@ -84,16 +88,15 @@ Files that exceed the path length
 
 Files uploaded using another operating system such as Linux might not be downloadable to any path in Windows. This is illustrated below:
 
-+-------------------+---------------+-------------------+---------------------+-------------------+
-| Operating system	| File systems	| Max length total	| Max length filename | Max length path   |
-+===================+===============+===================+=====================+===================+
-| Linux	            | EXT4,         | 4096              | 255                 | 4096              |
-|                   | most others   |                   |                     |                   |
-+-------------------+---------------+-------------------+---------------------+-------------------+
-| Windows 10	    | NTFS	        | 260               |                     | 260               |
-+-------------------+---------------+-------------------+---------------------+-------------------+
-| MacOS             | APFS, HFS+	| unlimited	        | 255                 |                   |	
-+-------------------+---------------+-------------------+---------------------+-------------------+
++-------------------+-----------------------+-------------------+-----------------------+-------------------+
+| Operating system  | File systems          | Max length total  | Max length filename   | Max length path   |
++===================+=======================+===================+=======================+===================+
+| Linux             | EXT4, most others     | 4096              | 255                   | 4096              |
++-------------------+-----------------------+-------------------+-----------------------+-------------------+
+| Windows 10        | NTFS                  | 260               |                       | 260               |
++-------------------+-----------------------+-------------------+-----------------------+-------------------+
+| MacOS             | APFS, HFS+            | unlimited         | 255                   |                   |
++-------------------+-----------------------+-------------------+-----------------------+-------------------+
 
 For example, when you try to download a file with path length 300 Windows will do nothing, without giving you a specific error message.
 
