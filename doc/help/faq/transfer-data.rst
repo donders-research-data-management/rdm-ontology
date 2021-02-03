@@ -28,7 +28,7 @@ Transfer data
 +---------------------------------------+---------------------------------------------------+
 | … is not accessible. You might not    | The file probably has a                           |
 | have permissions to use this network  | :ref:`reserved character <reserved-characters>`   |
-| resource                              |  or name in it                                    |      |
+| resource                              | or name in it                                     |
 +---------------------------------------+---------------------------------------------------+
 | Could not find this item. This is no  | The file probably exceeds the                     |
 | longer located in …                   | :ref:`path length <exceed-path-length>`           |
