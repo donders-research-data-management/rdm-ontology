@@ -6,7 +6,7 @@ Windows known issues
 .. note::
     :mode: warning
     
-    Mounting a network drive on Windows is known to be unstable and often problematic. It is suggested to use other WebDAV client (such as Cyberduck or YodaDrive) to transfer data on Windows. If you decide to use it anyway be aware of the issues below.
+    Mounting a network drive on Windows is known to be unstable and often problematic. It is suggested to use other WebDAV client (such as :ref:`YodaDrive <YodaDrive>` or :ref:`Cyberduck <cyberduck>`) to transfer data on Windows. If you decide to use it anyway be aware of the issues below.
 
 .. _too-many-files
 
@@ -16,11 +16,12 @@ Directories with too many files
 By default you cannot download more than 1000 files per folder on Windows.
 You can prevent this by maximizing the files uploaded per folder to 1000, or by archiving them a tool like zip or tar. Keep in mind this might make it less friendly for the end user.
 
-Workaround is to either use another tool such as YodaDrive or Cyberduck or have a system administrator increase the number (DWORD) value of the following registry value:
+Workaround is to either use another tool such as :ref:`YodaDrive <YodaDrive>` or :ref:`Cyberduck <cyberduck>` or have a system administrator increase the number (DWORD) value of the following registry value:
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\FileAttributesLimitInBytes
 The maximum value for this is +- 4.3 million files (decimal 4294967295, hexadecimal ffffffff). The default value is 1000 files (decimal 1000000).
 
 References
+^^^^^^^^^^
 
 https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-access-webdav-web-folder 
 
@@ -32,7 +33,7 @@ Files that are too large
 By default you cannot download files larger than 50 MB on Windows.
 You can either prevent uploading these files, or consider splitting them up. Keep in mind this might make it less friendly for the end user.
 
-Workaround is to either use another tool such as YodaDrive or Cyberduck or have a system administrator increase the bytes value of the following registry value:
+Workaround is to either use another tool such as :ref:`YodaDrive <YodaDrive>` or :ref:`Cyberduck <cyberduck>` or have a system administrator increase the bytes value of the following registry value:
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\FileSizeLimitInBytes
 
 The maximum value is +- 4.3 GB (decimal 4294967295, hexadecimal ffffffff). The default value is 50 MB (decimal 50000000).
@@ -49,27 +50,27 @@ Files with reserved characters
 
 Files containing the following characters or names can be uploaded with other operating systems, but cannot be downloaded on Windows:
 
-Files with the following reserved characters:
-< (less than)
-> (greater than)
-: (colon)
-" (double quote)
-/ (forward slash)
-\ (backslash)
-| (vertical bar or pipe)
-? (question mark)
-* (asterisk)
+* Files with the following reserved characters:
+  < (less than)
+  > (greater than)
+  : (colon)
+  " (double quote)
+  / (forward slash)
+  \ (backslash)
+  | (vertical bar or pipe)
+  ? (question mark)
+  * (asterisk)
 
-Files with integer value zero, sometimes referred to as the ASCII NUL character.
+* Files with integer value zero, sometimes referred to as the ASCII NUL character.
 
-Files with the following reserved names:
-CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.
+* Files with the following reserved names:
+  CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.
 
-Files or directories that end with a space or a period.
+* Files or directories that end with a space or a period.
 
 Prevent this by not using these reserved characters or names.
 
-Workaround is to store these files with a different name that does not contain the reserved characters. This can be done by providing a different target filename on the command line, or using a tool that supports to download files with a different name, such as Cyberduck.
+Workaround is to store these files with a different name that does not contain the reserved characters. This can be done by providing a different target filename on the command line, or using a tool that supports to download files with a different name, such as :ref:`Cyberduck <cyberduck>`.
 
 References
 ^^^^^^^^^^ 
