@@ -34,4 +34,4 @@ Windows will prompt you for your username and password, which you can get from t
    :maxxdepth: 1
    :hidden:
    
-   <Windows-known-issues/windows-known-issues.rst>
+   Windows known issues <Windows-known-issues/windows-known-issues.rst>
