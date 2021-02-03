@@ -8,7 +8,7 @@ Windows known issues
     
     Mounting a network drive on Windows is known to be unstable and often problematic. It is suggested to use other WebDAV client (such as Cyberduck or YodaDrive) to transfer data on Windows. If you decide to use it anyway be aware of the issues below.
 
-.. too-many-files
+.. _too-many-files
 
 Directories with too many files
 -------------------------------
@@ -24,7 +24,7 @@ References
 
 https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-access-webdav-web-folder 
 
-.. too-large-files
+.. _too-large-files
 
 Files that are too large
 ------------------------
@@ -42,7 +42,7 @@ References
 
 https://support.microsoft.com/en-us/topic/you-cannot-download-more-than-50-mb-or-upload-large-files-when-the-upload-takes-longer-than-30-minutes-using-web-client-in-windows-7-8709ae9d-e808-c5a0-95d0-9a7143c50b11 
 
-.. reserved-characters
+.. _reserved-characters
 
 Files with reserved characters
 ------------------------------
@@ -76,7 +76,7 @@ References
 
 https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file 
 
-.. exceed-path-length
+.. _exceed-path-length
 
 Files that exceed the path length
 ---------------------------------
