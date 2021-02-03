@@ -9,13 +9,13 @@ YodaDrive is recommended over :ref:`mounting a network drive <mount-network-driv
 
 Install YodaDrive
 -----------------
-#. Download and install YodaDrive from <https://github.com/UtrechtUniversity/YodaDrive/releases/download/0.2.6.2/YodaDrive-0.2.6.2.zip. You need administrator privileges to complete the installation procedure. Contact the ICT helpdesk in case you temporarily need them.
-#. After installation open YodaDrive by clicking on the system tray icon
+1. Download and install YodaDrive from <https://github.com/UtrechtUniversity/YodaDrive/releases/download/0.2.6.2/YodaDrive-0.2.6.2.zip. You need administrator privileges to complete the installation procedure. Contact the ICT helpdesk in case you temporarily need them.
+2. After installation open YodaDrive by clicking on the system tray icon
    
    .. figure:: images/Yoda_system_tray_icon.png
    
    and choosing *Manage*. 
-#. Enter the following information, as seen on the screenshot:
+3. Enter the following information, as seen on the screenshot:
    
    .. figure:: images/Yoda_instellingen_anoniem.png
    
@@ -25,4 +25,4 @@ Install YodaDrive
    *	*Password*: Your password belonging to your RU account
    *  Check the following boxes: *Remember Password* (only if you are working on a personal PC or laptop), *Auto-mount drive* and *Start with Windows*
 
-#. Click *Save*, then *Mount* and you can now view the Yoda Network Disk in Explorer. 
+4. Click *Save*, then *Mount* and you can now view the Yoda Network Disk in Explorer. 
