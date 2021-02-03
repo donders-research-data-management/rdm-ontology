@@ -29,3 +29,9 @@ Open File explorer, right-click on "Network", and click "map network drive". The
 Windows will prompt you for your username and password, which you can get from the :ref:`data access account <data-access-account>`.
 
 .. include:: readmore.rst
+
+.. toctree::
+   :maxxdepth: 1
+   :hidden:
+   
+   <Windows-known-issues/windows-known-issues.rst>
