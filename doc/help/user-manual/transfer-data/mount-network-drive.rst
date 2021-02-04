@@ -22,7 +22,7 @@ Mounting webdav on Windows
 
     Although it's technically possible, mounting WebDAV as network drive on Windows is known to be unstable and sometimes problematic. 
     For more information on these problems read :ref:`here <windows-known-issues>`.  
-    It is suggested to use other WebDAV client (such as :ref:`cyberduck <cyberduck>` or :ref:`YodaDrive <YodaDrive>`) to transfer data on Windows.
+    It is suggested to use other WebDAV client (such as :ref:`YodaDrive <YodaDrive>` or :ref:`cyberduck <cyberduck>`) to transfer data on Windows.
 
 Open File explorer, right-click on "Network", and click "map network drive". Then click "connect to a web site that you can use to store your documents and pictures" -> next -> choose custom network location -> next -> add network address ${repositoryWebdavUrl}.
 
