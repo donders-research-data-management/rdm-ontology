@@ -15,7 +15,7 @@ To transfer data, you should use a HTTP-based file transfer called `WebDAV <http
 Depending on your operating system, a number of tools are available for transferring data to and from the repository. Please select your preferred one and click on it to get more information.
 
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
-| Tool                                                               | User Interface  | Mounts network drive  | Windows support | MacOS support   | Linux support   |
+| Tool                                                               | User Interface  | Mounts network drive  | Windows         | MacOS           | Linux           |
 +====================================================================+=================+=======================+=================+=================+=================+
 | :ref:`YodaDrive <YodaDrive>`                                       | Graphical       | X                     | X               |                 |                 |
 +--------------------------------------------------------------------+-----------------+-----------------------+-----------------+-----------------+-----------------+
