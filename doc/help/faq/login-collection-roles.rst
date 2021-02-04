@@ -64,5 +64,10 @@ Login and collection roles
     To be assigned for all roles the user must have an authenticated account (e.g. `SURFconext <https://www.surf.nl/en/services-and-products/surfconext/index.html>`_). Users with an ORCID-iD cannot be assigned as manager. Users with a social account cannot be assigned as a manager or a contributor.
 
     To be assigned as a manager the user has to be added to one of the participating organisational units by that unit's research administrator. In this way, it is ensured that only the members of an organisational unit can be assigned the responsibility that comes with the manager role.
+    
+9.  **How do I request a collection?**
+
+    Collections are created by the research administrator of your organizational unit. The procedure for requesting the collection is centre-specific, either by e-mail or (online) request form. The request should minimally include your name and u- or z-number, e-mail address, project number (if available), collection type (DAC/RDC/DSC), quota, preservation time and the names of inital collection managers. 
+    
 
 .. _faq-get-started:
