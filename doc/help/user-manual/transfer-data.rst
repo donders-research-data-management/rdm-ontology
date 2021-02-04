@@ -6,7 +6,7 @@ Transfer data
 To transfer data, you should use a HTTP-based file transfer called `WebDAV <https://nl.wikipedia.org/wiki/WebDAV>`_. To use this, you need a username and password.
 
 *Radboud University or RadboudUMC employees can use the credentials provided by their employer (u-, s-, e- or z-number and its password) to use WebDAV file transfer.
-If you have no Radboud University of RadboudUMC employee account, first create an account by following the steps on :ref:`this page <data-access-account>` before continuing.*
+If you have no Radboud University of RadboudUMC employee account, first create an account by following the steps on :ref:`this page<data-access-account>` before continuing.*
 
 .. toctree::
    :maxdepth: 1
