@@ -39,7 +39,7 @@ Best practice is to not work directly on a network drive, but to store your file
    :maxdepth: 1
    :hidden:
 
-    YodaDrive <transfer-data/YodaDrive.rst>
+    YodaDrive (windows) <transfer-data/YodaDrive.rst>
     Cyberduck (Windows and MacOSX) <transfer-data/cyberduck.rst>
     Mount network drive (Windows and MacOSX) <transfer-data/mount-network-drive.rst>
     Thunar (Linux - GUI) <transfer-data/thunar.rst>
