@@ -17,38 +17,38 @@ Transfer data
 
 3. **Why do I get the following error during a file transfer?**
 
-+---------------------------------------+---------------------------------------------------+
-| Error message                         | Solution                                          |
-+=======================================+===================================================+
-| The file exceeds the limits allowed   | The directory probably has                        |
-| and cannot be saved                   | :ref:`too many files <too-many-files>`            |
-+---------------------------------------+---------------------------------------------------+
-| Access denied. Please verify disk     | The file you want to download is probably         |
-| permissions                           | :ref:`too large <too-large-files>`                |
-+---------------------------------------+---------------------------------------------------+
-| … is not accessible. You might not    | The file probably has a                           |
-| have permissions to use this network  | :ref:`reserved character <reserved-characters>`   |
-| resource                              | or name in it                                     |
-+---------------------------------------+---------------------------------------------------+
-| Could not find this item. This is no  | The file probably exceeds the                     |
-| longer located in …                   | :ref:`path length <exceed-path-length>`           |
-+---------------------------------------+                                                   |
-| Invalid file handle                   |                                                   |
-+---------------------------------------+                                                   |
-| The file name you specified is not    |                                                   |
-| valid or too long                     |                                                   |
-+---------------------------------------+                                                   |
-| This file name is reserved for use by |                                                   |
-| Windows                               |                                                   |
-+---------------------------------------+                                                   |
-| Unexpected error. The parameter is    |                                                   |
-| incorrect                             |                                                   |
-+---------------------------------------+                                                   |
-| The file is too large for the         |                                                   |
-| destination file system               |                                                   |
-+---------------------------------------+                                                   |
-| FileStream was asked to open a device |                                                   |
-| that was not a file                   |                                                   |
-+---------------------------------------+                                                   |
-| Path does not exist                   |                                                   |
-+---------------------------------------+---------------------------------------------------+
+   +---------------------------------------+---------------------------------------------------+
+   | Error message                         | Solution                                          |
+   +=======================================+===================================================+
+   | The file exceeds the limits allowed   | The directory probably has                        |
+   | and cannot be saved                   | :ref:`too many files <too-many-files>`            |
+   +---------------------------------------+---------------------------------------------------+
+   | Access denied. Please verify disk     | The file you want to download is probably         |
+   | permissions                           | :ref:`too large <too-large-files>`                |
+   +---------------------------------------+---------------------------------------------------+
+   | … is not accessible. You might not    | The file probably has a                           |
+   | have permissions to use this network  | :ref:`reserved character <reserved-characters>`   |
+   | resource                              | or name in it                                     |
+   +---------------------------------------+---------------------------------------------------+
+   | Could not find this item. This is no  | The file probably exceeds the                     |
+   | longer located in …                   | :ref:`path length <exceed-path-length>`           |
+   +---------------------------------------+                                                   |
+   | Invalid file handle                   |                                                   |
+   +---------------------------------------+                                                   |
+   | The file name you specified is not    |                                                   |
+   | valid or too long                     |                                                   |
+   +---------------------------------------+                                                   |
+   | This file name is reserved for use by |                                                   |
+   | Windows                               |                                                   |
+   +---------------------------------------+                                                   |
+   | Unexpected error. The parameter is    |                                                   |
+   | incorrect                             |                                                   |
+   +---------------------------------------+                                                   |
+   | The file is too large for the         |                                                   |
+   | destination file system               |                                                   |
+   +---------------------------------------+                                                   |
+   | FileStream was asked to open a device |                                                   |
+   | that was not a file                   |                                                   |
+   +---------------------------------------+                                                   |
+   | Path does not exist                   |                                                   |
+   +---------------------------------------+---------------------------------------------------+
