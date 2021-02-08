@@ -18,7 +18,7 @@ By default you cannot download more than 1000 files per folder on Windows.
 You can prevent this by maximizing the files uploaded per folder to 1000, or by archiving them a tool like zip or tar. Keep in mind this might make it less friendly for the end user.
 
 Workaround is to either use another tool such as :ref:`YodaDrive <YodaDrive>` or :ref:`Cyberduck <cyberduck>` or have a system administrator increase the number (DWORD) value of the following registry value:
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\FileAttributesLimitInBytes
+``HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\FileAttributesLimitInBytes``
 The maximum value for this is +- 4.3 million files (decimal 4294967295, hexadecimal ffffffff). The default value is 1000 files (decimal 1000000).
 
 References
@@ -36,7 +36,7 @@ By default you cannot download files larger than 50 MB on Windows.
 You can either prevent uploading these files, or consider splitting them up. Keep in mind this might make it less friendly for the end user.
 
 Workaround is to either use another tool such as :ref:`YodaDrive <YodaDrive>` or :ref:`Cyberduck <cyberduck>` or have a system administrator increase the bytes value of the following registry value:
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\FileSizeLimitInBytes
+``HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters\FileSizeLimitInBytes``
 
 The maximum value is +- 4.3 GB (decimal 4294967295, hexadecimal ffffffff). The default value is 50 MB (decimal 50000000).
 
