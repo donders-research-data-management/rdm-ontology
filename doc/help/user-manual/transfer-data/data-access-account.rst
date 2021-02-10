@@ -18,7 +18,7 @@ To get the data access password you first must login (Read: :ref:`How to login? 
 Your *username* and the *one-time password* for data-access will be displayed on the pop-up window. The username is a combination of the user ID and the home organization. **Note that your username is case sensitive**. The password is valid for 72 hours. If the password has expired, you can simply repeat this procedure.
 
 .. figure:: images/RDR_data_access_popup.png
-   :width: 600px
+   :scale: 80%
 
 Now that you have the data transfer username and one time password, you can use one of the following methods to transfer files and directories:
 
