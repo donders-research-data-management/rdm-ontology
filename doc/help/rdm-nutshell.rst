@@ -33,3 +33,11 @@ The three collections are built at different stages of a research project, see t
    :scale: 100%
 
    The research life cycle.
+
+.. figure:: images/RDM_Workflow_DI.svg
+   :height: 450px
+   :width: 640px
+   :scale: 100%
+   :target: _static/RDM_Workflow_DI.pdf
+
+   RDM workflow of the Donders Institute.
