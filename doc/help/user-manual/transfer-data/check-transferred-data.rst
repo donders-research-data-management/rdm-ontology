@@ -11,7 +11,7 @@ For collections with a limited number of files, you can download the manifest fi
 
 Note that, for published DSCs and archived DAC/RDCs, the manifest file is available in the collection as part of the data (see :ref:`this faq <faq-files-added-to-DSC>`).
 
-.. figure:: images/manifest_file.jpg
+.. figure:: images/RDR_check_data_manifest_2.png
 
 After downloading the manifest file, move it to the folder on your computer that contains the local copy of the files from the repository.
 
