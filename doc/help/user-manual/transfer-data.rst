@@ -39,11 +39,11 @@ Best practice is to not work directly on a network drive, but to store your file
    :maxdepth: 1
    :hidden:
 
-    YodaDrive (windows) <transfer-data/YodaDrive.rst>
-    Cyberduck (Windows and MacOSX) <transfer-data/cyberduck.rst>
-    Mount network drive (Windows and MacOSX) <transfer-data/mount-network-drive.rst>
-    Thunar (Linux - GUI) <transfer-data/thunar.rst>
-    Cadaver (Linux - command line) <transfer-data/cadaver.rst>
+    YodaDrive <transfer-data/YodaDrive.rst>
+    Cyberduck <transfer-data/cyberduck.rst>
+    Mount network drive <transfer-data/mount-network-drive.rst>
+    Thunar <transfer-data/thunar.rst>
+    Cadaver <transfer-data/cadaver.rst>
     
 
 After up- or downloading your files, make sure the transfer was completed accurately.
