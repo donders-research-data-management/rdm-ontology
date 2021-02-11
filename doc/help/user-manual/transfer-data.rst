@@ -41,13 +41,12 @@ Best practice is to not work directly on a network drive, but to store your file
 .. toctree::
    :maxdepth: 1
    :hidden:
-
+    
     YodaDrive <transfer-data/YodaDrive.rst>
     Cyberduck <transfer-data/cyberduck.rst>
     Mount network drive <transfer-data/mount-network-drive.rst>
     Thunar <transfer-data/thunar.rst>
     Cadaver <transfer-data/cadaver.rst>
-    
 
 After up- or downloading your files, make sure the transfer was completed accurately.
 
