@@ -30,7 +30,7 @@ VOC_ETHICAL_REVIEW_BOARD=../doc/ethics/ethics_review_board.json
 VOC_IDENTIFIER_SCHEME=$(wildcard ../doc/associated_material/*scheme.json)
 CMS_EXT_RSRC_IDX=external_urls.json
 CMS_SNIPPETS_MD=$(patsubst %.md,%.html,$(wildcard doc/privacy/*.md))
-CMS_SNIPPETS_HTML=$(wildcard ../doc/privacy/*.html ../doc/*.html ../doc/email/*.html ../doc/messages/*.html ../doc/changestate/*.html ../doc/login/*.html ../doc/editcollection/*.html ../doc/collection/*.html ../doc/collection/publish/*.html ../doc/collection/archive/*.html)
+CMS_SNIPPETS_HTML=$(wildcard ../doc/privacy/*.html ../doc/*.html ../doc/email/*.html ../doc/email/*.ftl ../doc/messages/*.html ../doc/changestate/*.html ../doc/login/*.html ../doc/editcollection/*.html ../doc/collection/*.html ../doc/collection/publish/*.html ../doc/collection/archive/*.html)
 COLL_README_TXT=../doc/collection/publish/README.txt
 
 #the directory containing help documentations in RST format

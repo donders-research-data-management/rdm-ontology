@@ -31,6 +31,7 @@
   "emailCollectionChangesLeadText" : "/doc/email/collectionChangesLeadText.html",
   "emailManagerLessCollectionsLeadText" : "/doc/email/managerLessCollectionsLeadText.html",
   "emailCollectionCreatedLeadText" : "/doc/email/collectionCreatedLeadText.html",
+  "EmailCollectionQuotaExceedDao.ftl": "/doc/email/EmailCollectionQuotaExceedDao.ftl",
 
   "collections.header" : "/doc/help/faq/deposit-data.html",
 
