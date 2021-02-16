@@ -80,6 +80,7 @@
 
   "collection.publish.filesReserved" : "/doc/collection/publish/files_reserved.html",
   "collection.publish.beingPublished" : "/doc/collection/publish/being_published.html",
+  "collection.stateChanging" : "/doc/collection/state_changing.html",
   "collection.publish.readme" : "/doc/collection/publish/README.txt",
   "collection.archive.beingArchived" : "/doc/collection/archive/being_archived.html"
 }
