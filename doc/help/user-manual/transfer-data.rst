@@ -47,6 +47,7 @@ Best practice is to not work directly on a network drive, but to store your file
     Mount network drive <transfer-data/mount-network-drive.rst>
     Thunar <transfer-data/thunar.rst>
     Cadaver <transfer-data/cadaver.rst>
+    Windows known issues <transfer-data/windows-known-issues.rst>
 
 After up- or downloading your files, make sure the transfer was completed accurately.
 
