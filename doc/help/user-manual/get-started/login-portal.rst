@@ -6,10 +6,12 @@ Login in Portal
 If you want to see the details of a collection, or make changes to open collections, click the *LOG IN* button on `the data repository homepage <${repositoryUrl}>`_. Without logging in you will only be able to see limited information of published data sharing collections.
 
 .. figure:: images/RDR_homepage_login_highlight.png
+   :class: with-border
 
 On the login page you can choose either your institutional account (via SURFconext) or ORCID-ID. How you login will determine to which role in a collection you can be authorized, see :ref:`this FAQ <faq-get-started>`.
 
 .. figure:: images/RDR_login_main.png
+   :class: with-shadow
 
 Preferably use your home institution account to login. To do this, click "login with your SURFconext account" and search for your institute in the list.
 
