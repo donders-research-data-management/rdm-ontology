@@ -1,5 +1,8 @@
 .. _rdm-nutshell:
 
+.. figure:: images/research_circle.png
+   :scale: 50%
+
 The ${repositoryDescription} in a nutshell
 ==========================================
 
@@ -8,6 +11,14 @@ Research Data Management (RDM) aims to improve the research **efficiency and tra
 * **Data preservation** for internal reuse
 * **Research documentation** for increasing reusability and reproducibility
 * **Data sharing** with the external scientific community
+
+Workflow Overview
+-----------------
+.. figure:: images/RDM_Workflow_DI.svg
+   :height: 540px
+   :width: 768px
+   :scale: 120%
+   :target: _static/RDM_Workflow_DI.pdf
 
 Collections
 -----------
@@ -29,15 +40,4 @@ Collections are always initiated by one of the research **administrators** that 
 
 The three collections are built at different stages of a research project, see the figure below. For how to request the three collections, please ask your local data steward. Note that an empirical research project can start from existing DACs and/or DSCs, and therefore it is not required that new data have to be acquired for such a project.
 
-.. figure:: images/research_circle.png
-   :scale: 100%
 
-   The research life cycle.
-
-.. figure:: images/RDM_Workflow_DI.svg
-   :height: 450px
-   :width: 640px
-   :scale: 100%
-   :target: _static/RDM_Workflow_DI.pdf
-
-   RDM workflow of the Donders Institute.
