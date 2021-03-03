@@ -12,13 +12,6 @@ Research Data Management (RDM) aims to improve the research **efficiency and tra
 * **Research documentation** for increasing reusability and reproducibility
 * **Data sharing** with the external scientific community
 
-Workflow Overview
------------------
-.. figure:: images/RDM_Workflow_DI.svg
-   :height: 540px
-   :width: 768px
-   :scale: 120%
-   :target: _static/RDM_Workflow_DI.pdf
 
 Collections
 -----------
@@ -27,6 +20,15 @@ The data repository allows a researcher to archive digital data into **collectio
 * In a **Data Acquisition Collection** (DAC), the data are archived in their original form. Here, original means without any manipulations that limit future analyses of these data.
 * A **Research Documentation Collection** (RDC) documents the process via which data are converted into published results.
 * A **Data Sharing Collection** (DSC) contains the data that on which published results are based, allowing external researchers to extend scientific findings by reanalyzing data with new methods, and/or by addressing new research questions using these data.
+
+Workflow Overview
+-----------------
+.. figure:: images/RDM_Workflow_DI.svg
+   :height: 540px
+   :width: 768px
+   :scale: 120%
+   :target: _static/RDM_Workflow_DI.pdf
+
 
 Authorisation
 -------------
