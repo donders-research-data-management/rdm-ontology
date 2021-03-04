@@ -23,7 +23,7 @@ Open the Linux terminal and type the following command.
 
 You will be asked to provide the *username* (CASE SENSITIVE!) and *password* of your :ref:`data access account <data-access-account>`.
 
-.. figure:: images/cadaver-username.png
+.. figure:: images/cadaver_username.png
 
 Navigating local and remote directories
 ---------------------------------------
