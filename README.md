@@ -1,4 +1,4 @@
-# Configurable content for the Radboud Data Repository portal
+# Test
 
 This repository allows managing the snippets of text that appear on the web portal, specific controlled vocabularies, naming schemes and references to external resources that map terms and names onto meanings and definitions.
 
