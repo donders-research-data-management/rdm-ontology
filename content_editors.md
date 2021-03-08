@@ -1,4 +1,4 @@
-# Editing the configurable content of the Radboud Data Repository portal
+# Tweede commit
 
 This page explains how to update the configurable contents which is displayed on the Radboud Data Repository portal. This includes the help documentation, but also a lot of the the text that is shown on the portal itself.
 
