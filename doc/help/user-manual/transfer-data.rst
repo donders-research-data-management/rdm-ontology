@@ -24,7 +24,7 @@ For Windows users, :ref:`YodaDrive <YodaDrive>` is the most easy and accessible 
              :scale: 50%
              
 .. |check| image:: images/checkmark.png
-            :scale: 10%
+            :scale: 5%
 
 |warning| *This is not the preferred option for Windows as it can cause several issues. We suggest either using YodaDrive or Cyberduck.*
 
