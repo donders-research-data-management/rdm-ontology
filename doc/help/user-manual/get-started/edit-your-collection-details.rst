@@ -27,7 +27,7 @@ To view and/or edit the details of a collection (e.g. title, :ref:`abstract <faq
 To edit the details of a collection, click on the *Edit metadata* button.
 
 .. figure:: images/my_collections_metadata_2.png
-    :scale: 80%
+    :scale: 50%
 
 Depending on your role (see this FAQ: :ref:`What are the differences between the different roles in a collection <faq-differences-between-roles>`) in the collection, the edit dialog allows you to:
 
