@@ -119,7 +119,7 @@ Publish data
 
     As a prerequisite for publication, several journals now request a persistent identifier of the shared data, which they publish in the footnote of the article. Researchers from the ${organizationDescription} can use the digital object identifier (DOI) of the Data Sharing Collection (DSC) for that purpose.
 
-    .. figure:: images/RDR_FAQ_DOI.png
+    .. figure:: images/FAQ_DOI.png
 
     Note that a DOI is already assigned as soon as the DSC is created. You can already use it in your manuscript; however, only after *publishing* the DSC, the DOI becomes active and will point to the published DSC. If the editor of the journal requests access to data during the review process - i.e. before publishing the DSC -, use the "reviewer access URL" as described :ref:`here <publish-dsc-share-data>`.
 
