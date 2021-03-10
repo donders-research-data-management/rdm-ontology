@@ -12,7 +12,7 @@ As an editor, you can share the 'reviewer access URL' (only) with the reviewers.
 
 The reviewer access URL will lead you to the Data Sharing Collection page on the `${repositoryDescription} webportal <${repositoryUrl}>`_:
 
-.. figure:: images/RDR_reviewer_access_note.png
+.. figure:: images/reviewer_access_note.png
 
 .. note::
     Access through the reviewer access URL is only for review purposes. By accessing, the user agrees to the conditions shown on the data collection page (see above). Once the collection is published, one must request access to the data in accordance with the :ref:`Data Use Agreement <faq-data-use-agreement>`.
