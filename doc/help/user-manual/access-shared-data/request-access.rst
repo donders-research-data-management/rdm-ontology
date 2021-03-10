@@ -22,13 +22,13 @@ To log in, follow the instructions in :ref:`1.1 Login in Portal <login-portal>`.
 
 Go to the shared collections page. On the data sharing collection page, now click the "Request access" button.
 
-.. figure:: images/RDR_request_access_button.png
+.. figure:: images/request_access_button.png
 
 Then, you will see a :ref:`Data Use Agreement <faq-data-use-agreement>` for this particular DSC.
 
 Read it carefully and tick the box at the end of the page if you agree with the Data Use Agreement. Then click on the blue bar to get access to the data.
 
-.. figure:: images/RDR_request_access_user_agreement.png
+.. figure:: images/request_access_user_agreement.png
 
 If you follow these steps, you will be automatically added as a viewer of this collection. As a viewer, you can view all collection details and you can download the data from the collection :ref:`(see this FAQ: What are the differences between the roles in a collection? <faq-differences-between-roles>`
 
