@@ -11,7 +11,7 @@ For collections with a limited number of files, you can download the manifest fi
 
 Note that, for published DSCs and archived DAC/RDCs, the manifest file is available in the collection as part of the data (see :ref:`this faq <faq-files-added-to-DSC>`).
 
-.. figure:: images/RDR_check_data_manifest_2.png
+.. figure:: images/check_data_manifest.png
 
 After downloading the manifest file, move it to the folder on your computer that contains the local copy of the files from the repository.
 
@@ -35,11 +35,11 @@ Windows
 
     Go to https://github.com/gurnec/HashCheck/releases/tag/v2.4.0 and download the file: `HashCheckSetup-v2.4.0.exe`.
 
-    .. figure:: images/cs_1.png
+    .. figure:: images/check_data_hashcheck_tool.png
 
     Run the executable file (`HashCheckSetup-v2.4.0.exe`) and install the Hashcheck tool (you need administrator rights of the computer for this). Restart your computer after the installation.
 
-    .. figure:: images/cs_2.png
+    .. figure:: images/check_data_hashcheck_install.png
 
 Hashcheck only needs to be installed once; after installation, you can use it for all your future file transferring.
 
