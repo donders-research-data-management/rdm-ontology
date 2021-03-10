@@ -25,11 +25,11 @@ If all collaborators agree on the content of the collection, you may want or be 
 
 When the status of the current DSC is "reviewable internal", you can change its status to "reviewable external" by clicking the button and confirming the state change. In this state, the collection is still read-only.
 
-.. figure:: images/RDR_archive_DSC_review_external.png
+.. figure:: images/archive_DSC_review_external.png
 
 A collection-specific URL is available specifically for external reviewers to access your collection. This URL should only be shared with the editor of the journal to which you send your manuscript. You can retrieve the URL by clicking the "get reviewer access URL" button. Any reviewer that uses the link is added to the DSC having the same rights a viewer has.
 
-.. figure:: images/RDR_archive_DSC_review_URL.png
+.. figure:: images/archive_DSC_review_URL.png
 
 When sharing the URL with the journal editor, make sure to include a small explanation about how to access the repository and download data. Here's a template e-mail that you can use for that:
 
@@ -43,14 +43,14 @@ After external review, the DSC may require changes. This can be done by making t
 
 When the manuscript is accepted for publication, the Data Sharing Collection should be published by changing its state from "reviewable external" to "published" by clicking the "switch to published" button.
 
-.. figure:: images/RDR_archive_DSC_published.png
+.. figure:: images/archive_DSC_published.png
 
 .. note::
 
     Keep in mind that this step is irreversible! See below for information about re-opening a published collection. Note that the *actual* publication process takes some time (e.g., several minutes or hours), depending on the size of the data collection.
 
 
-.. figure:: images/RDR_archive_DSC_published_notification.png
+.. figure:: images/archive_DSC_published_notification.png
 
 After the collection is published a permanent read-only copy of the collection will be created and the :ref:`persistent identifier <faq-persistent-identifier-DR>` (DOI) that was assigned will become active. The persistent identifier can be used for future references.
 
@@ -66,7 +66,7 @@ In case you discover mistakes in your collection content, it is possible to re-o
 
 After the collection has been reopened, an "editable" *draft version* is created. You can edit the collection content in the same way as before publishing it. You can still view the details of "Version 1", but these are no longer editable and you cannot edit its content.
 
-.. figure:: images/RDR_archive_DSC_published_reopened.png
+.. figure:: images/archive_DSC_published_reopened.png
 
 Once you have updated the *draft* version of your collection, you should follow the same procedure for publishing the collection again, as described before on this page.
 
