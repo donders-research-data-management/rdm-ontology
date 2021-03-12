@@ -1,10 +1,11 @@
 .. _rdm-nutshell:
 
-.. figure:: images/research_circle.png
-   :scale: 50%
-
 The ${repositoryDescription} in a nutshell
 ==========================================
+
+.. image:: images/research_circle.png
+   :scale: 50%
+   :align: left
 
 Research Data Management (RDM) aims to improve the research **efficiency and transparency**, and to fulfill the **requirements** of the university, funders, and legislation. The ${organizationDescription} uses this repository for data management. The repository serves three purposes:
 
