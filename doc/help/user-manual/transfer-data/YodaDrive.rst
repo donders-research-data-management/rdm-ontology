@@ -20,7 +20,7 @@ Install YodaDrive
 
 3. Enter the following information, as seen on the screenshot:
    
-   .. figure:: images/Yoda_configuration_anonymous.png
+   .. figure:: images/Yoda_configuration_anonymous_Donders.png
    
    * *Drive letter*: Select a drive letter - any free letter is okay
    * *URL*: Either enter ${repositoryWebdavUrl} to access all your collections or enter the link to a specific collection you are working on
