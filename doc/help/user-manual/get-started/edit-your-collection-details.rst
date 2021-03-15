@@ -5,7 +5,7 @@ Edit your collection details
 
 Once you are logged in to the portal, you are directed to the Collections page.
 
-.. figure:: images/my_collections.jpg
+.. figure:: images/RDR_my_collections.png
 
 Under *My collections* you can find all collections in which you have a role (see these FAQs: :ref:`What are the differences between the roles in a collection? <faq-differences-between-roles>` and :ref:`How do I request the different collections? <faq-how-to-request-collection>`.
 
@@ -22,11 +22,11 @@ To review the details of a collection (e.g. title, :ref:`abstract <faq-abstract>
     - If you are a viewer of a collection, you cannot edit its details.
     - If you are a viewer and want to access the data of the collection, please continue reading section :ref:`access-shared-data`.
 
-.. figure:: images/edit_collection.jpg
+.. figure:: images/RDR_my_collection_metadata.png
 
 To edit the details of a collection, click on the *Edit metadata* button.
 
-.. figure:: images/edit-details_60.png
+.. figure:: images/RDR_my_collections_metadata_2.png
 
 Depending on your role (see this FAQ: :ref:`What are the differences between the different roles in a collection <faq-differences-between-roles>`) in the collection, the edit dialog allows you to:
 

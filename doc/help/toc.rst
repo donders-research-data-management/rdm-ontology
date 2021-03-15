@@ -3,6 +3,7 @@ Table of contents
 
 .. toctree::
    :maxdepth: 2
+   :includehidden:
 
     Home <index.rst>
     Introduction <rdm-nutshell.rst>
