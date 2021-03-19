@@ -28,8 +28,12 @@
   "changeStateFromPublishedToEditable" : "/doc/changestate/publishedtoeditable.html",
   "changeStateFromArchivedToEditable" : "/doc/changestate/archivedtoeditable.html",
 
+  "changingStateFromEditableToReviewableInternal" : "/doc/collection/state/changing-editable-to-reviewable-internal.html",
+  "changingStateFromReviewableInternalToReviewableExternal" : "/doc/collection/state/changing-reviewable-internal-to-reviewable-external.html",
   "changingStateFromReviewableExternalToPublished" : "/doc/collection/state/changing-reviewable-external-to-published.html",
   "changingStateFromReviewableInternalToArchived" : "/doc/collection/state/changing-reviewable-internal-to-archived.html",
+  "changingStateFromReviewableInternalToEditable" : "/doc/collection/state/changing-reviewable-to-editable.html",
+  "changingStateFromReviewableExternalToEditable" : "/doc/collection/state/changing-reviewable-to-editable.html",
 
   "emailCollectionChangesLeadText" : "/doc/email/collectionChangesLeadText.html",
   "emailManagerLessCollectionsLeadText" : "/doc/email/managerLessCollectionsLeadText.html",
