@@ -28,6 +28,9 @@
   "changeStateFromPublishedToEditable" : "/doc/changestate/publishedtoeditable.html",
   "changeStateFromArchivedToEditable" : "/doc/changestate/archivedtoeditable.html",
 
+  "changingStateFromReviewableExternalToPublished" : "/doc/collection/state/changing-reviewable-external-to-published.html",
+  "changingStateFromReviewableInternalToArchived" : "/doc/collection/state/changing-reviewable-internal-to-archived.html",
+
   "emailCollectionChangesLeadText" : "/doc/email/collectionChangesLeadText.html",
   "emailManagerLessCollectionsLeadText" : "/doc/email/managerLessCollectionsLeadText.html",
   "emailCollectionCreatedLeadText" : "/doc/email/collectionCreatedLeadText.html",
@@ -79,7 +82,5 @@
   "collection.tab.manifest.notAvailable" : "/doc/collection/manifest_not_available.html",
 
   "collection.publish.filesReserved" : "/doc/collection/publish/files_reserved.html",
-  "collection.publish.beingPublished" : "/doc/collection/publish/being_published.html",
-  "collection.publish.readme" : "/doc/collection/publish/README.txt",
-  "collection.archive.beingArchived" : "/doc/collection/archive/being_archived.html"
+  "collection.publish.readme" : "/doc/collection/publish/README.txt"
 }
