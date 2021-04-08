@@ -26,4 +26,4 @@ Install YodaDrive
    *  Check the following boxes: *Remember Password* (do NOT check this box if you are on a publicly accessible PC or laptop), *Auto-mount drive* and *Start with Windows*
 |
 4. Click *Save*, then *Mount* and you can now view the Yoda Network Disk in Explorer.
-5. You can now add files to your collection the same way you would do in Windows Explorer. For example by copying them from you personal folder to the Yoda Drive folder.
+5. You can now add files to your Yoda Network folder via Windows Explorer and they will appear in your RDR collection.
