@@ -9,19 +9,22 @@ For Windows users, :ref:`YodaDrive <YodaDrive>` is the most easy and accessible 
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
 | Tool                                                | User Interface  | Mounts network drive  | Windows                                 | MacOS           | Linux           |
 +=====================================================+=================+=======================+=========================================+=================+=================+
-| :ref:`YodaDrive <YodaDrive>`                        | Graphical       | X                     | X                                       |                 |                 |
+| :ref:`YodaDrive <YodaDrive>`                        | Graphical       | |check|               | |check|                                 |                 |                 |
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
-| :ref:`Cyberduck <cyberduck>`                        | Graphical       |                       | X                                       | X               |                 |
+| :ref:`Cyberduck <cyberduck>`                        | Graphical       |                       | |check|                                 | |check|         |                 |
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
-| :ref:`Mount network drive <mount-network-drive>`    | Graphical       | X                     | X  |warning|                            | X               |                 |
+| :ref:`Mount network drive <mount-network-drive>`    | Graphical       | |check|               | |check| |warning|                       | |check|         |                 |
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
-| :ref:`Thunar <thunar>`                              | Graphical       | X                     |                                         |                 | X               |
+| :ref:`Thunar <thunar>`                              | Graphical       | |check|               |                                         |                 | |check|         |
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
-| :ref:`Cadaver <cadaver>`                            | Command line    |                       |                                         |                 | X               |
+| :ref:`Cadaver <cadaver>`                            | Command line    |                       |                                         |                 | |check|         |
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
 
 .. |warning| image:: images/warning.png
              :scale: 50%
+             
+.. |check| image:: images/checkmark_small.png
+
 
 |warning| *This is not the preferred option for Windows as it can cause several issues. We suggest either using YodaDrive or Cyberduck.*
 
