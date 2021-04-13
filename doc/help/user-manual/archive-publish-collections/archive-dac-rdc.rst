@@ -20,7 +20,7 @@ Details of the collection have to be specified :ref:`see 1.2 <edit-your-collecti
 
 A collection can be archived if all the required details are specified. Then you can confirm the switch to "reviewable internal".
 
-.. figure:: images/RDR_archive_confirm_switch.png
+.. figure:: images/archive_confirm_switch.png
 
 Now, the status of the current collection is switched from "editable" to "reviewable internal". In this state, the collection is read-only. However, this state is reversible: you can still switch it back to "editable".
 
@@ -34,7 +34,7 @@ If all collaborators agree that the collection is complete, click "switch to arc
 
     Keep in mind that this step is irreversible!
 
-.. figure:: images/RDR_archive_confirm_switch_archive.png
+.. figure:: images/archive_confirm_switch_archive.png
 
 Now the status of the collection is changed from 'reviewable internal' to 'archived'. A permanent read-only copy of the collection is created. In addition, a MANIFEST file is added to the collection data. 
 

@@ -35,11 +35,11 @@ Windows
 
     Go to https://github.com/gurnec/HashCheck/releases/tag/v2.4.0 and download the file: `HashCheckSetup-v2.4.0.exe`.
 
-    .. figure:: images/cs_1.png
+    .. figure:: images/check_data_hashcheck_tool.png
 
     Run the executable file (`HashCheckSetup-v2.4.0.exe`) and install the Hashcheck tool (you need administrator rights of the computer for this). Restart your computer after the installation.
 
-    .. figure:: images/cs_2.png
+    .. figure:: images/check_data_hashcheck_install.png
 
 Hashcheck only needs to be installed once; after installation, you can use it for all your future file transferring.
 
