@@ -16,16 +16,18 @@ Install YodaDrive
    
    .. figure:: images/Yoda_system_tray_icon.png
    
-   and choosing *Manage*.
+   and choosing *Manage*. 
 
 3. Enter the following information, as seen on the screenshot:
    
    .. figure:: images/Yoda_configuration_anonymous_Donders.png
    
-   * *Drive letter*: Select a drive letter - any free letter is okay
-   * *URL*: Either enter ${repositoryWebdavUrl} to access all your collections or enter the link to a specific collection you are working on
-   * *Login*: Your u-number followed by @ru.nl or your z-number followed by @radboudumc.nl
-   * *Password*: Your password belonging to your RU account
-   * Check the following boxes: *Remember Password* (do NOT check this box if you are on a publicly accessible PC or laptop), *Auto-mount drive* and *Start with Windows*
+   *	*Drive letter*: Select a drive letter - any free letter is okay
+   *	*URL*: Either enter ${repositoryWebdavUrl} to access all your collections or enter the link to a specific collection you are working on
+   *	*Login*: Your u-number followed by @ru.nl or your z-number followed by @radboudumc.nl
+   *	*Password*: Your password belonging to your RU account
+   *  Check the following boxes: *Remember Password* (do NOT check this box if you are on a publicly accessible PC or laptop), *Auto-mount drive* and *Start with Windows*
 
 4. Click *Save*, then *Mount* and you can now view the Yoda Network Disk in Explorer.
+
+5. You can now add files to your Yoda Network folder via Windows Explorer and they will appear in your RDR collection.
