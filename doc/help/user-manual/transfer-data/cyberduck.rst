@@ -12,18 +12,18 @@ Install Cyberduck
 
 Download the installer from software's website and follow instructions step-by-step while executing the installer. You need administrator rights to install Cyberduck software on your computer.
 
-.. figure:: images/cd1.png
+.. figure:: images/cyberduck_setup.png
 
 Start with cyberduck
 --------------------
 
 When you open Cyberduck after installation, the interface looks like this:
 
-.. figure:: images/cd2.png
+.. figure:: images/cyberduck_start.png
 
 To view, upload and download files you need to create a new bookmark. Click on the "+" sign to create a new bookmark.
 
-.. figure:: images/cd3.png
+.. figure:: images/cyberduck_new_input.png
 
 A new pop-up window will appear. In this window you must configure the bookmark as follows:
 
@@ -35,30 +35,30 @@ A new pop-up window will appear. In this window you must configure the bookmark 
 
 The configurations are saved to the bookmark automatically. Just close the configuration window when you are done.
 
-.. figure:: images/cd4.png
+.. figure:: images/cyberduck_credentials.png
 
 Double-click on the saved bookmark to make connection.
 
 You will be asked to provide the username and password of your :ref:`data access account <data-access-account>` to login window of Cyberduck. In that window, make sure you tick the option Save password (MacOSX: "Add to Keychain").
 
-.. figure:: images/cd6.png
+.. figure:: images/cyberduck_login.png
 
 Transferring Data
 -----------------
 
 After your login, you will see a number of directories: one for each organisational unit of the ${organizationDescription}.
 
-.. figure:: images/cd7.png
+.. figure:: images/cyberduck_directory.png
 
 In the subtree of a particular organisational unit, you will see directories of collections in which you are authorized for data access (i.e., you are a viewer, contributor or manager of the corresponding collection). As a viewer of a collection, you are only allowed to download data from that collection. As a contributor or manager, you are also allowed to upload and modify data.
 
 After entering a collection's directory you can download data by selecting files/directories followed by clicking the "Action" button on the menu bar. In the drop-down menu, choose one of the download options and follow the dialog to save them locally.
 
-.. figure:: images/cd8.png
+.. figure:: images/cyberduck_download.png
 
 Upload a file/directory by selecting the Action button on the menu bar. A dialog window will pop-up for you to select local files to upload. See the screenshot below:
 
-.. figure:: images/cd9.png
+.. figure:: images/cyberduck_upload.png
 
 .. note::
 
@@ -66,6 +66,6 @@ Upload a file/directory by selecting the Action button on the menu bar. A dialog
 
 If you try to upload files to a directory for which you are not authorized (i.e., you are not a contributor or manager of the corresponding collection), you will get an Internal Server Error message similar to the screenshot below.
 
-.. figure:: images/cd10.png
+.. figure:: images/cyberduck_error.png
 
 .. include:: readmore.rst

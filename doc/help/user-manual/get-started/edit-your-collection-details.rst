@@ -22,7 +22,7 @@ To view and/or edit the details of a collection (e.g. title, :ref:`abstract <faq
     - If you are a viewer of a collection, you cannot edit its details.
     - If you are a viewer and want to access the data of the collection, please continue reading section :ref:`access-shared-data`.
 
-.. figure:: images/RDR_my_collection_metadata.png
+.. figure:: images/my_collection_metadata.png
 
 To edit the details of a collection, click on the *Edit metadata* button.
 
