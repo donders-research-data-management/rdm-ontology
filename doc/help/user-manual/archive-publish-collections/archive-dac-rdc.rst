@@ -14,9 +14,7 @@ Only the manager of a collection can archive a collection. To archive a DAC or a
 
 .. figure:: images/RDR_archive_review_internal.png
 
-Details of the collection have to be specified :ref:`see 1.2 <edit-your-collection-details>` before the collection can be archived. The system will give you an error message if some required information is missing. In the example below, the information about the ethical approval is missing.
-
-.. figure:: images/RDR_archive_ethics_missing.png
+Details of the collection have to be specified :ref:`see 1.2 <edit-your-collection-details>` before the collection can be archived. The system will give you an error message if some required information is missing.
 
 A collection can be archived if all the required details are specified. Then you can confirm the switch to "reviewable internal".
 

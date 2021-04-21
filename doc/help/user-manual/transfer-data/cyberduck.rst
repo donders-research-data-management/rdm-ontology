@@ -10,7 +10,7 @@ For Windows and MacOSX users, the recommended WebDAV client is Cyberduck.
 Install Cyberduck
 -----------------
 
-Download the installer from software's website and follow instructions step-by-step while executing the installer. You need administrator rights to install Cyberduck software on your computer.
+If you are a Radboud University employee and have access to the Software Center, you can easily download CyberDuck via the `Software Center <https://www.ru.nl/ict-uk/staff/software/software-center/>`_. Otherwise, you can download the installer from the software's website. Once downloaded, follow the instructions step-by-step while executing the installer.
 
 .. figure:: images/cyberduck_setup.png
 
