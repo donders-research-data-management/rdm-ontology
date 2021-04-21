@@ -13,4 +13,4 @@ Click on the *Edit* button.
 
 You can adjust the frequency of email notifications. By default this is set to "Monthly".
 
-.. figure:: images/RDR_mail_notification_edit_page.png
+.. figure:: images/mail_notification_edit_page.png
