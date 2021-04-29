@@ -29,7 +29,7 @@ A new pop-up window will appear. In this window you must configure the bookmark 
 
 - **WebDAV (HTTP/SSL)**
 - **Nickname: add a freely chosen nickname to the new connection**
-- Server: **${repositoryWebdavUrl}**
+- Server: **webdav.${repositoryHostname}**
 - Port: **443**
 - Username: the *username* (CASE SENSITIVE!) of the :ref:`data access account <data-access-account>`
 
