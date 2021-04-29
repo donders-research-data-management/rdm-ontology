@@ -93,7 +93,8 @@ $(JSON_SCHEMAS):
 
 # make distribution tarball
 dist: $(DIST_ZIP)
-	@echo "--> Not checking resource availability ..."
+	@echo "--> checking resource availability ..."
+	@python "$(shell pwd)/tools/$(PY_EXTERNAL_URL_CHECKER)" -p $(BASEURL) -l 3 -i $(CMS_EXT_RSRC_IDX) $(DIST_ZIP)
 
 $(BUILDINFO):
 	@if [ -f $@ ]; then cp $@ $@.dist; else touch $@.dist; fi
