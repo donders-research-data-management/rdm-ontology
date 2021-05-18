@@ -147,7 +147,7 @@ Publish data
 
 11. **What if a 'published' Data Sharing Collection (DSC) contains incorrect information?**
 
-    If a 'published' DSC contains incorrect and/or insufficient information, a collection manager may ask the research administrator to make it 'editable' again, allowing for changes to be made. If this DSC is modified and thereafter changed to 'published' again, then a second read-only copy is generated, with another unique persistent identifier.
+    If a 'published' DSC contains incorrect and/or insufficient information, a collection manager may ask the research administrator to make it 'editable' again, allowing for changes to be made. If this DSC is modified and thereafter changed to 'published' again, then a second read-only copy is generated. The persistent identifier (DOI) remains the same.
 
     Since the original collection is persistent, it will remain accessible as well. Therefore, carefully check all the files before changing a DSC to 'published'. See :ref:`publish-dsc-share-data`.
 
