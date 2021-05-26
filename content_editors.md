@@ -9,20 +9,20 @@ This repository serves both for the Radboud Data Repository (RDR) as for the Don
 Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online. Hereafter is the workflow:
 
 1. The _content editor of x_ modifies content, commits to a new _feature_ branch, and starts a pull request.
-1. The _content editor of x_ sets the _content manager of x_ as assignee for the pull request
-1. The _RDR buildserver_ builds the content on the _feature_ branch and deploys to _acceptance_ environment (refer to build workflow).
-1. The _content manager of x_ reviews the changes and provides comments within the pull request
-1. The _content editor of x_ does any rework when necessary, and potentially improves commits by rebasing.
-1. The _content editor of x_ sets the _content editor and manager of y_ as a reviewer to the pull request.
-1. The _content editor of y_ indicates whether they would also like the change, and potentially provides any review comments to the pull request.
-1. The _content manager of x_
-      1. processes the review comments within the _feature_ branch.
-      1. merges the pull request to the _acceptance_ branch of x. 
-      1. cherry-picks the pull request to the _acceptance_ branch of y.
+2. The _RDR buildserver_ builds the content on the _feature_ branch and deploys to _acceptance_ environment of x (refer to build workflow).
+3. The _content editor of x_ reviews the changes on the _acceptance_ environment, and potentially does any rework by rebasing.
+4. The _content editor of x_ sets the _content manager of x_ as assignee for the pull request.
+4. The _content editor of x_ sets the _content editor oy y_ as reviewer of the pull request.
+5. The _content manager of x_ reviews the changes, tests them locally and provides comments within the pull request.
+6. The _content editor of x_ potentially does any rework by rebasing, and notifies the _content manager of x_ when it's ok.
+7. The _content manager of x_
+      1. merges the pull request to both the _acceptance_ and _release_ branch of x.
       1. deletes the _feature_ branch.
-1. The _RDR buildserver_ builds the content on both _acceptance_ branches and deploys to the _acceptance_ environments.
-1. The _content managers of x and y_ merge changes from _acceptance_ into the _release_ branch.
-1. The _RDR buildserver_ builds the content on the _release_ branches and deploys to the _production_ environments
+8. The _RDR buildserver_ builds the content on both branches and deploys to the corresponding environments.
+
+When the commit is interesting for environment y:
+1. The _content editor of y_ indicates within the pull request whether they would also like the commit, and potentially provides any review comments.
+2. The _content manager of y_ cherry-picks the changes to both the _acceptance_ and the _release branch of y.
 
 ## Build workflow
 1. The _RDR buildserver_ check for changes on the repository each 1 minute.
