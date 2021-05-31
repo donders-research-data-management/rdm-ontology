@@ -50,7 +50,7 @@
   "editCollectionModal.form.sfnKeywordsLabel" : "/doc/help/faq/edit-collection-metadata.html#faq-keyword-sfn",
   "editCollectionModal.header-label" : "/doc/help/faq/edit-collection-metadata.html",
 
-  "navbar.helpButton" : "/doc/help/",
+  "navbar.helpButton" : "/doc/help/quickstart",
   "oneTimePasswordModal.explanationLink" : "/doc/help/user-manual/transfer-data.html",
 
   "user.researcherId.urlPrefix" : "https://www.researcherid.com/rid/",
