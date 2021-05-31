@@ -1,6 +1,6 @@
-.. _rdm-nutshell:
+.. _glossary:
 
-The ${repositoryDescription} in a nutshell
+The ${repositoryDescription} Glossary
 ==========================================
 
 Research Data Management (RDM) aims to improve the research **efficiency and transparency**, and to fulfill the **requirements** of the university, funders, and legislation. The ${organizationDescription} uses this repository for data management. The repository serves three purposes:

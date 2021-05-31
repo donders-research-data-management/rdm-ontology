@@ -5,12 +5,12 @@ Table of contents
    :maxdepth: 2
    :includehidden:
 
-    Home <index.rst>
-    Introduction <rdm-nutshell.rst>
+    Quick Start Guide <quickstart.rst>
     User manual <user-manual.rst>
+	Glossary <glossary.rst>
     FAQ <faq.rst>
 	Contact <contact.rst>
-..    Get started <get-started.rst>
+..    Setting up <get-started.rst>
 ..    Transfer data <transfer-data.rst>
 ..    Archive / publish collections <archive-publish-collections.rst>
 ..    Reviewer access to data <reviewer-access.rst>

@@ -1,7 +1,7 @@
 .. _login-portal:
 
-Login in Portal
-===============
+Login
+=====
 
 If you want to see the details of a collection, or make changes to open collections, click the *LOG IN* button on `the data repository homepage <${repositoryUrl}>`_. Without logging in you will only be able to see limited information of published data sharing collections.
 
