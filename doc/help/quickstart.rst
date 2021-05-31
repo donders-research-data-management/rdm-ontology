@@ -24,10 +24,10 @@ You have just created your RDR profile and are free to log out at this stage.
 Now you are ready to request a collection. How you can do this depends on your institute:
 
 * Behavioral Science Institute (BSI)
-* `Center of Language Studies (CLS) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkprocessen/research-data-management/request-rdr-collection>`_
+* `Center of Language Studies (CLS) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkwijzen/research-data-management/request-rdr-collection>`_
 * Faculty of Law
 * `Institute for Management Research (IMR) <https://www.radboudnet.nl/nsm/research/research-data-management/phase-3-archiving-including-potential-reuse-data/#h32ef576d-ef36-4450-9079-06420d42789d>`_
-* `Radboud Institute for Culture and History (RICH) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkprocessen/research-data-management/request-rdr-collection>`_
+* `Radboud Institute for Culture and History (RICH) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkwijzen/research-data-management/request-rdr-collection>`_
 * Radboud Teachers Academy (RTA)
 
 **Step 3: Edit your collection details and add colleagues**
@@ -41,7 +41,7 @@ We recommend that you add additional information to your collection before worki
 3. Add any applicable metadata, for example keywords, associated data, and an abstract
 4. Optionally, add colleagues to your collection. You can only add colleagues who have an RDR profile to your collection (see step 1). 
    Your colleagues can have different roles (manager, contributor or viewer) with different rights. 
-   More information can be found :ref:`here <rdm-nutshell>`.
+   More information can be found :ref:`here <glossary>`.
 5. Click on *update collection* to save the changes
 
 For more extensive help, see :ref:`here <edit-your-collection-details>`. 
