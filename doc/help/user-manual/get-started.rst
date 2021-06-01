@@ -3,7 +3,8 @@
 Setting up
 ===========
 
-For a quick step-by-step guide for Radboud University researchers using the RDR for the first time, see our :ref:`Quick Start Guide<quickstart>`.
+For a quick step-by-step guide of using the Donders Repository, see our :ref:`Quick Start Guide<quickstart>`.
+
 For more details on how to log in or how to set up specific details of your collection see:
 
 .. toctree::
