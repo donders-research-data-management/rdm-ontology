@@ -171,6 +171,12 @@ The following variables are supported, which is a combination of variables that 
 
 Please be aware that when using variables that do not exist within a certain context the system will not be able to present the corresponding page on the web portal, or send out corresponding emails.
 
+## Images in html
+Adding images in html (for exmple /doc/homepage.html) can be done by the following procedure:
+Create a hidden rst file (i.e. an rst file that is not being referred to anywhere in any portal help page). Within this file, add rst tags to refer to the image(s). 
+This will make the images available under the URL prefix "/doc/help/\_images". For an example, see the hidden rst file https://github.com/Radboud-University/rdr-configurable-content/blob/rdr-acceptance/doc/help/images.rst and its reference in html https://github.com/Radboud-University/rdr-configurable-content/blob/rdr-acceptance/doc/homepage.html.
+
+
 ## Online helps
 
 By making use of the index file [external_urls.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/external_urls.json), the portal provides a mechanism allowing content manager to link various help buttons in the portal to subject-specific help documents that are hosted externally to the portal. It is achieved by adding a key-value pair in the [external_urls.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/external_urls.json) with the identifier of the help button as the key, and the link to the help documentation as the value.
