@@ -41,7 +41,7 @@ We recommend that you add additional information to your collection before worki
 3. Add any applicable metadata, for example keywords, associated data, and an abstract
 4. Optionally, add colleagues to your collection. You can only add colleagues who have an RDR profile to your collection (see step 1). 
    Your colleagues can have different roles (manager, contributor or viewer) with different rights. 
-   More information can be found :ref:`here <glossary>`.
+   More information can be found :ref:`here <rdm-nutshell>`.
 5. Click on *update collection* to save the changes
 
 For more extensive help, see :ref:`here <edit-your-collection-details>`. 
