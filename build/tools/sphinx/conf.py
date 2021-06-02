@@ -204,4 +204,8 @@ texinfo_documents = [
 
 # the setup function to add extra css file to the HTML
 def setup(app):
-    app.add_stylesheet('webportal.css')
+    try:
+        app.add_stylesheet('webportal.css')
+    except AttributeError:
+        # try a newer API interface renamed since version 1.8
+        app.add_css_file('webportal.css')
