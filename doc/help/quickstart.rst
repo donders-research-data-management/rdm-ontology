@@ -8,7 +8,7 @@ researchers using the ${repositoryName} for the first time. The data repository 
 which can be seen as digital archiving boxes. In this guide we will show you how to request and work with such a collection.
 
 **Step 1: Create your ${repositoryName} profile**
------------------------------------
+-------------------------------------------------
 Login to the ${repositoryDescription} to create your user profile.
 
 **Note**: If you have not logged in at least once, you cannot request a collection.
@@ -42,7 +42,7 @@ We recommend that you add additional information to your collection before worki
 4. Optionally, add colleagues to your collection. You can only add colleagues who have an ${repositoryName} profile to your collection (see step 1). 
    Your colleagues can have different roles (manager, contributor or viewer) with different rights. 
    More information can be found :ref:`here <glossary>`.
-5. Click on *update collection* to save the changes
+5. Click on *Save changes* to save the changes
 
 For more extensive help, see :ref:`here <edit-your-collection-details>`. 
 

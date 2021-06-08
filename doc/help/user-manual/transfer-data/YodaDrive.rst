@@ -37,13 +37,15 @@ Install YodaDrive
 
 5. Open the folder of your collection in the Yoda Network Drive.
    
-   The name of the folder of your collection is based on the collection identifier. This identifier can be found in the black collection identifier tag, located above the title of your collection in the RDR
+   The name of the folder of your collection is based on the *collection identifier*. This identifier can be found underneath the title and abstract of your collection.
    
-   The collection identifier consists of the following parts:
+   .. figure:: images/Yoda_collection_identifier_place.png
+   
+   The *collection identifier* consists of the following parts:
    
    .. figure:: images/Yoda_collection_identifier.png
    
-   These parts correspond to the folder structure in your Yoda Network Drive (i.e. first your organizational unit and then the last part of the collection identifier). 
+   These parts correspond to the folder structure in your Yoda Network Drive (i.e. first your organizational unit and then the last part of the *collection identifier*). 
 
 6. You are currently in the folder that corresponds to the collection you want to work in. 
    You can move/open/edit/delete/etc. files in this folder just as you would do in ‘regular’ folders in Windows Explorer.
