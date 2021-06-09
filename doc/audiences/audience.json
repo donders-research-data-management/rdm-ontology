@@ -1,0 +1,222 @@
+[
+  {
+    "code": "D10000",
+    "name": "Science and technology"
+  },
+  {
+    "code": "D11000",
+    "name": "Mathematics"
+  },
+  {
+    "code": "D12000",
+    "name": "Physics"
+  },
+  {
+    "code": "D13000",
+    "name": "Chemistry"
+  },
+  {
+    "code": "D14000",
+    "name": "Technology"
+  },
+  {
+    "code": "D15000",
+    "name": "Earth sciences"
+  },
+  {
+    "code": "D16000",
+    "name": "Computer science"
+  },
+  {
+    "code": "D17000",
+    "name": "Astronomy, astrophysics"
+  },
+  {
+    "code": "D18000",
+    "name": "Agriculture and the physical environment"
+  },
+  {
+    "code": "D20000",
+    "name": "Life sciences, medicine and health care"
+  },
+  {
+    "code": "D21000",
+    "name": "Life sciences"
+  },
+  {
+    "code": "D22000",
+    "name": "Biology"
+  },
+  {
+    "code": "D23000",
+    "name": "Medicine"
+  },
+  {
+    "code": "D24000",
+    "name": "Health sciences"
+  },
+  {
+    "code": "D25000",
+    "name": "Kinesiology"
+  },
+  {
+    "code": "D26000",
+    "name": "Veterinary medicine"
+  },
+  {
+    "code": "D30000",
+    "name": "Humanities"
+  },
+  {
+    "code": "D31000",
+    "name": "Paleography, bibliology, bibliography, library science"
+  },
+  {
+    "code": "D32000",
+    "name": "Philosophy"
+  },
+  {
+    "code": "D33000",
+    "name": "Theology and religious studies"
+  },
+  {
+    "code": "D34000",
+    "name": "History"
+  },
+  {
+    "code": "D35000",
+    "name": "Arts and culture"
+  },
+  {
+    "code": "D36000",
+    "name": "Language and literature studies"
+  },
+  {
+    "code": "D37000",
+    "name": "Archaeology"
+  },
+  {
+    "code": "D38000",
+    "name": "Area studies"
+  },
+  {
+    "code": "D40000",
+    "name": "Law and public administration"
+  },
+  {
+    "code": "D41000",
+    "name": "Science of law"
+  },
+  {
+    "code": "D42000",
+    "name": "Political and administrative sciences"
+  },
+  {
+    "code": "D44000",
+    "name": "Traffic and transport studies"
+  },
+  {
+    "code": "D50000",
+    "name": "Behavioural and educational sciences"
+  },
+  {
+    "code": "D51000",
+    "name": "Psychology"
+  },
+  {
+    "code": "D52000",
+    "name": "Educational theory"
+  },
+  {
+    "code": "D53000",
+    "name": "Gerontology"
+  },
+  {
+    "code": "D54000",
+    "name": "Pedagogics"
+  },
+  {
+    "code": "D60000",
+    "name": "Social sciences"
+  },
+  {
+    "code": "D61000",
+    "name": "Sociology"
+  },
+  {
+    "code": "D62000",
+    "name": "Social geography"
+  },
+  {
+    "code": "D63000",
+    "name": "Cultural anthropology"
+  },
+  {
+    "code": "D64000",
+    "name": "Demography"
+  },
+  {
+    "code": "D65000",
+    "name": "Urban and rural planning"
+  },
+  {
+    "code": "D66000",
+    "name": "Communication sciences"
+  },
+  {
+    "code": "D67000",
+    "name": "Leisure and recreation studies"
+  },
+  {
+    "code": "D68000",
+    "name": "Social security studies"
+  },
+  {
+    "code": "D69000",
+    "name": "Gender studies"
+  },
+  {
+    "code": "D70000",
+    "name": "Economics and business administration"
+  },
+  {
+    "code": "D70100",
+    "name": "Personnel administration and management"
+  },
+  {
+    "code": "E10000",
+    "name": "Interdisciplinary sciences"
+  },
+  {
+    "code": "E11000",
+    "name": "Biotechnology"
+  },
+  {
+    "code": "E12000",
+    "name": "Technology in medicine and health care"
+  },
+  {
+    "code": "E13000",
+    "name": "Development studies"
+  },
+  {
+    "code": "E14000",
+    "name": "Migration, ethnic relations and multiculturalism"
+  },
+  {
+    "code": "E15000",
+    "name": "Environmental studies"
+  },
+  {
+    "code": "E16000",
+    "name": "Nanotechnology"
+  },
+  {
+    "code": "E17000",
+    "name": "Greenhouse gas mitigation"
+  },
+  {
+    "code": "E18000",
+    "name": "Biobased economy"
+  }
+]
