@@ -14,7 +14,7 @@ Two roles are involved in the workflow: the _content editor_ of rdr which is res
 4. The _content editor_ merges the pull request
 5. The _content editor_ double checks if it’s ok on the production environment
 6. The _content editor_ alerts Donders in the pull request whether they want to add the same changes
-7. **Optionally**, The Donders _content manager_ cherry picks selected commits (to `dr-release`)
+7. **Optionally**, The Donders _content manager_ cherry picks selected commits to `dr-acceptance` first to validate the result on the DR acceptance environment. Once accepted, merge `dr-acceptance` to `dr-release`.
 8. The _content editor_ deletes the branch when Donders has cherry picked or choosen not to do this
 
 ## Build workflow
