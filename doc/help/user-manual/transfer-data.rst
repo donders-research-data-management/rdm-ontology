@@ -3,7 +3,7 @@
 Transfer data
 =============
 
-In order to transfer your data into a RDR collection, you have to make use of WebDAV. You can compare this to for example FTP or Samba. A number of tools are available for transferring data to and from the repository, depending on your operating system. Please select your preferred one and click on it to get more information. 
+In order to transfer your data into a ${repositoryName} collection, you have to make use of WebDAV. You can compare this to for example FTP or Samba. A number of tools are available for transferring data to and from the repository, depending on your operating system. Please select your preferred one and click on it to get more information. 
 For Windows users, :ref:`YodaDrive <YodaDrive>` is the most easy and accessible solution to use. MacOS users can directly :ref:`Mount the network drive <mount-network-drive>`.
 
 +-----------------------------------------------------+-----------------+-----------------------+-----------------------------------------+-----------------+-----------------+
