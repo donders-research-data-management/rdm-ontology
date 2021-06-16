@@ -2,7 +2,7 @@
    {
       "scheme":"RRID",
       "system":"Research Resource Identifier",
-      "urlPrefix":null
+      "urlPrefix":"https://scicrunch.org/resolver/"
    },
    {
       "scheme":"DOI",
