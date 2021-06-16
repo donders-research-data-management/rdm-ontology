@@ -8,7 +8,8 @@ researchers using the ${repositoryName} for the first time. The data repository 
 which can be seen as digital archiving boxes. In this guide we will show you how to request and work with such a collection.
 
 **Step 1: Create your ${repositoryName} profile**
------------------------------------
+-------------------------------------------------
+
 Login to the ${repositoryDescription} to create your user profile.
 
 **Note**: If you have not logged in at least once, you cannot request a collection.
