@@ -3,7 +3,7 @@
 YodaDrive
 =========
 
-YodaDrive is an easy way to integrate your RDR collections in your windows file explorer. It is a WebDAV client for Windows, allowing the user to mount a remote WebDAV server as a local drive.
+YodaDrive is an easy way to integrate your ${repositoryName} collections in your windows file explorer. It is a WebDAV client for Windows, allowing the user to mount a remote WebDAV server as a local drive.
 
 YodaDrive is recommended over :ref:`mounting a network drive <mount-network-drive>` directly using Windows, because it solves the problems with directories with too many files, files that are too large and in general it’s more stable.
 
@@ -33,7 +33,7 @@ Install YodaDrive
    
    .. figure:: images/Yoda_explorer.png
    
-   In order to add data to your RDR collection, you need to add files to your Yoda Network Drive in Windows Explorer. Step 5 to 7 will instruct you on how exactly to do this. 
+   In order to add data to your ${repositoryName} collection, you need to add files to your Yoda Network Drive in Windows Explorer. Step 5 to 7 will instruct you on how exactly to do this. 
 
 5. Open the folder of your collection in the Yoda Network Drive.
    
@@ -48,6 +48,6 @@ Install YodaDrive
 6. You are currently in the folder that corresponds to the collection you want to work in. 
    You can move/open/edit/delete/etc. files in this folder just as you would do in ‘regular’ folders in Windows Explorer.
 
-7. *Optional*. You can check whether your files are synchronised to the RDR. In order to do this, open the RDR in your browser and log in. Find your collection and select it. Under the tab files you should now see the files you have added in the Yoda Network Drive. 
+7. *Optional*. You can check whether your files are synchronised to the ${repositoryName}. In order to do this, open the ${repositoryName} in your browser and log in. Find your collection and select it. Under the tab files you should now see the files you have added in the Yoda Network Drive. 
    
-   **Note**: The synchronization to the RDR might take some time (up to several hours), especially for large files. Please be patient when handling a lot of and/or large files.
+   **Note**: The synchronization to the ${repositoryName} might take some time (up to several hours), especially for large files. Please be patient when handling a lot of and/or large files.

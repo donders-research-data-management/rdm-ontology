@@ -147,6 +147,7 @@ The following variables are supported, which is a combination of variables that 
 |`version`| Software version ||
 |`year`| Current year ||
 |`repositoryDescription`| The repository description. Either Radboud Data Repository for RDR or Donders Repository for DR ||
+|`repositoryName`| The repository abbreviation. Either RDR for RDR or DR for DR ||
 |`repositoryUrl`| The portal URL. Either https://data.ru.nl for RDR or https://data.donders.ru.nl for DR ||
 |`repositoryWebdavUrl`| The WebDAV URL. Either https://webdav.data.ru.nl for RDR or https://webdav.data.donders.ru.nl for DR ||
 |`repositoryWebdavPublicUrl`| The public WebDAV URL. Either https://public.data.ru.nl for RDR or https://public.data.donders.ru.nl for DR ||
