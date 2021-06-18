@@ -7,13 +7,6 @@
      "filesAnonymousAccess":false
    },
    {
-     "id":"RU-DI-NH-1.0",
-     "name":"Radboud University - Donders Institute - Non-Human Data 1.0",
-     "pathHtml":"/doc/dua/RU-DI-NH-1.0.html",
-     "pathPlainText":"/doc/dua/RU-DI-NH-1.0.txt",
-     "filesAnonymousAccess":false
-   },
-   {
       "id":"ODC-BY-1.0",
       "name":"OpenDataCommons Attribution License",
       "pathHtml":"/doc/dua/ODC-BY-1.0.html",
@@ -32,13 +25,6 @@
       "name":"OpenDataCommons Public Domain Dedication & Licence",
       "pathHtml":"/doc/dua/ODC-PDDL-1.0.html",
       "pathPlainText":"/doc/dua/ODC-PDDL-1.0.txt",
-      "filesAnonymousAccess":true
-   },
-   {
-      "id":"CC0-1.0",
-      "name":"CreativeCommons Zero 1.0 Public Domain Dedication",
-      "pathHtml":"/doc/dua/CC0-1.0.html",
-      "pathPlainText":"/doc/dua/CC0-1.0.txt",
       "filesAnonymousAccess":true
    },
    {
@@ -151,13 +137,6 @@
       "name":"ISC License",
       "pathHtml":"/doc/dua/MIT.html",
       "pathPlainText":"/doc/dua/MIT.txt",
-      "filesAnonymousAccess":true
-   },
-   {
-      "id":"PD",
-      "name":"Public Domain",
-      "pathHtml":"/doc/dua/PD.html",
-      "pathPlainText":"/doc/dua/PD.txt",
       "filesAnonymousAccess":true
    }
 ]

@@ -6,18 +6,16 @@ This repository serves both for the Radboud Data Repository (RDR) as for the Don
 
 ## Workflow
 
-Two roles are involved in the workflow: the _content editor_ which is responsible for updating the contents; and the _content manager_ which brings the update online. Hereafter is the workflow:
+Two roles are involved in the workflow: the _content editor_ of rdr which is responsible for updating the contents and bringing it online in rdr. Also the _content manager_ of Donders which is responsible for bringing the change online in dr (when applicable). Hereafter is the workflow:
 
-1. The _content editor_ modifies contents on the _acceptance_ branch.
-1. The _RDR buildserver_ builds the content on the _acceptance_ branch and deploys to _acceptance_ environment (refer to build workflow).
-1. The _content editor_ informs the _content manager_ to review the changes by creating a pull request.
-     1. The _content manager_ is set as assignee for the pull request
-     1. The _contact of the other support team_ is set as reviewer of te pull request.
-1. The _contact of the other support team_ indicates with a comment whether they would also like the change.
-1. The _content manager_ merges changes from _acceptance_ into the _release_ branch by merging the pull request.
-1. The _RDR buildserver_ builds the content on the _release_ branch and deploys to _production_ environment
-1. The _content manager_ cherry-picks the commit and adds it the the _acceptance_ branch of the other support team, when the other team agrees.
-     1. 1. The _RDR buildserver_ builds the content on the _acceptance_ branch and deploys to _acceptance_ environment
+1. The _content editor_ modifies content, commits to a new _feature_ branch called `rdr-something`, and starts a pull request (to `rdr-release`)
+2. The _content editor_ reviews the changes on the acceptance environment and/or asks someone else to review
+3. **Optionally**, the content editor asks for a review by a developer
+4. The _content editor_ merges the pull request
+5. The _content editor_ double checks if it’s ok on the production environment
+6. The _content editor_ alerts Donders in the pull request whether they want to add the same changes
+7. **Optionally**, The Donders _content manager_ cherry picks selected commits to `dr-acceptance` first to validate the result on the DR acceptance environment. Once accepted, merge `dr-acceptance` to `dr-release`.
+8. The _content editor_ deletes the branch when Donders has cherry picked or choosen not to do this
 
 ## Build workflow
 1. The _RDR buildserver_ check for changes on the repository each 1 minute.
@@ -147,6 +145,7 @@ The following variables are supported, which is a combination of variables that 
 |`version`| Software version ||
 |`year`| Current year ||
 |`repositoryDescription`| The repository description. Either Radboud Data Repository for RDR or Donders Repository for DR ||
+|`repositoryName`| The repository abbreviation. Either RDR for RDR or DR for DR ||
 |`repositoryUrl`| The portal URL. Either https://data.ru.nl for RDR or https://data.donders.ru.nl for DR ||
 |`repositoryWebdavUrl`| The WebDAV URL. Either https://webdav.data.ru.nl for RDR or https://webdav.data.donders.ru.nl for DR ||
 |`repositoryWebdavPublicUrl`| The public WebDAV URL. Either https://public.data.ru.nl for RDR or https://public.data.donders.ru.nl for DR ||
@@ -170,6 +169,12 @@ The following variables are supported, which is a combination of variables that 
 |`licenseFile`| Name of the license file that contains the data use agreement which is created when a collection is published |[doc/collection/publish/files_reserved.html](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/collection/publish/files_reserved.html)|
 
 Please be aware that when using variables that do not exist within a certain context the system will not be able to present the corresponding page on the web portal, or send out corresponding emails.
+
+## Images in html
+Adding images in html (for exmple /doc/homepage.html) can be done by the following procedure:
+Create a hidden rst file (i.e. an rst file that is not being referred to anywhere in any portal help page). Within this file, add rst tags to refer to the image(s). 
+This will make the images available under the URL prefix "/doc/help/\_images". For an example, see the hidden rst file https://github.com/Radboud-University/rdr-configurable-content/blob/rdr-acceptance/doc/help/images.rst and its reference in html https://github.com/Radboud-University/rdr-configurable-content/blob/rdr-acceptance/doc/homepage.html.
+
 
 ## Online helps
 
