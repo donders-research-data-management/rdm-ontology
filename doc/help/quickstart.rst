@@ -26,6 +26,7 @@ Now you are ready to request a collection. How you can do this depends on your i
 
 * Behavioral Science Institute (BSI)
 * `Center of Language Studies (CLS) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkwijzen/research-data-management/request-rdr-collection>`_
+* Donders Institute: `Donders Centre for Cognition <https://intranet.donders.ru.nl/index.php?id=5073>`_, `Donders Centre for Cognitive Neuroimaging <https://intranet.donders.ru.nl/index.php?id=datastorage-archiving-sharing>`_ and `Donders Centre for Neuroscience <https://intranet.donders.ru.nl/index.php?id=5511>`_
 * Faculty of Law: request a collection by sending an email to Data Steward `Anita Böcker <mailto:anita.bocker@ru.nl>`_ or to Policy Advisor Research `Kitty van Veelen <mailto:kitty.vanveelen@ru.nl>`_.
 * `Institute for Management Research (IMR) <https://www.radboudnet.nl/nsm/research/research-data-management/phase-3-archiving-including-potential-reuse-data/#h32ef576d-ef36-4450-9079-06420d42789d>`_
 * `Radboud Institute for Culture and History (RICH) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkwijzen/research-data-management/request-rdr-collection>`_
