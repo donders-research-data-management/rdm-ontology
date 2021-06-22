@@ -82,6 +82,16 @@ The indices files are directly consumed by the portal code to create content dyn
 
 A list of indices are given blow:
 
+* [doc/associated_material/analysis_tool_identifier_scheme.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/associated_material/analysis_tool_identifier_scheme.json) contains a list of Persistent Identifiers for specific research tools, each has an abbreviated name of the identifier (`scheme`), full name (`system`), and standard url prefix (`urlPrefix`).
+
+* [doc/associated_material/data_identifier_scheme.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/associated_material/data_identifier_scheme.json) contains a list of Persistent Identifiers for datasets, each has an abbreviated name of the identifier (`scheme`), full name (`system`), and standard url prefix (`urlPrefix`).
+
+* [doc/associated_material/preregistration_identifier_scheme.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/associated_material/preregistration_identifier_scheme.json) contains a list of persistent identifiers for preregistrations, each has an abbreviated name of the identifier (`scheme`), full name (`system`), and standard url prefix (`urlPrefix`).
+
+* [doc/associated_material/publication_identifier_scheme.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/associated_material/publication_identifier_scheme.json) contains a list of persistent identifiers for publications specifically, each has an abbreviated name of the identifier (`scheme`), full name (`system`), and standard url prefix (`urlPrefix`).
+
+* [doc/audiences/audience.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/audiences/audience.json) contains a list of audiences for which the collections could be interesting, each has a `code` and a `name`.
+
 * [external_urls.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/external_urls.json) contains links to local contents (i.e. contents provides by this repository) or remote resources (i.e internet resources).  The local contents are specified with `/` followed by a path relative to the repository's directory; while the remote resources are specified with a URI protocol, such as `http://` or `https://`.
 
 * [doc/dua/data_use_agreement.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/dua/data_use_agreement.json) provides a list of Data Use Agreements, each has its `id`, `name`, and relative `path` to the content.  Note that the `path` is provided as a relative path as the content are provided locally from the repository.  This list is used by the portal to generate the DUA options on the collection editing form of the Data-Sharing Collections.  The order is respected.
