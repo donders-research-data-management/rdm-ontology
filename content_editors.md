@@ -90,7 +90,7 @@ A list of indices are given blow:
 
 * [doc/associated_material/publication_identifier_scheme.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/associated_material/publication_identifier_scheme.json) contains a list of persistent identifiers for publications specifically, each has an abbreviated name of the identifier (`scheme`), full name (`system`), and standard url prefix (`urlPrefix`).
 
-* [doc/audiences/audience.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/audiences/audience.json) contains a list of audiences for which the collections could be interesting, each has a `code` and a `name`.
+* [doc/audiences/audience.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/doc/audiences/audience.json) contains a list of audiences for which the collections could be interesting, each has a `code` and a `name`. Both `code` and `name` are specified by narcis (https://www.narcis.nl/classification) and the audience.json should match that list. More importantly, this file is used by the portal to get the text to display on various pages. The portal looks up the value associated with a "key". The value will be added as a link, or the resource the value points at will be displayed.
 
 * [external_urls.json](https://github.com/Radboud-University/rdr-configurable-content/blob/master/external_urls.json) contains links to local contents (i.e. contents provides by this repository) or remote resources (i.e internet resources).  The local contents are specified with `/` followed by a path relative to the repository's directory; while the remote resources are specified with a URI protocol, such as `http://` or `https://`.
 
