@@ -24,10 +24,10 @@ You have just created your ${repositoryName} profile and are free to log out at 
 Now you are ready to request a collection. How you can do this depends on your institute:
 
 * Behavioral Science Institute (BSI)
-* `Center of Language Studies (CLS) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkwijzen/research-data-management/request-rdr-collection>`_
+* `Center of Language Studies (CLS) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkprocessen/research-data-management/request-rdr-collection>`_
 * Faculty of Law: request a collection by sending an email to Data Steward `Anita Böcker <mailto:anita.bocker@ru.nl>`_ or to Policy Advisor Research `Kitty van Veelen <mailto:kitty.vanveelen@ru.nl>`_.
 * `Institute for Management Research (IMR) <https://www.radboudnet.nl/nsm/research/research-data-management/phase-3-archiving-including-potential-reuse-data/#h32ef576d-ef36-4450-9079-06420d42789d>`_
-* `Radboud Institute for Culture and History (RICH) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkwijzen/research-data-management/request-rdr-collection>`_
+* `Radboud Institute for Culture and History (RICH) <https://www.radboudnet.nl/letteren/onderzoek/regelingen-werkprocessen/research-data-management/request-rdr-collection>`_
 * Radboud Teachers Academy (RTA)
 
 **Step 3: Edit your collection details and add colleagues**
