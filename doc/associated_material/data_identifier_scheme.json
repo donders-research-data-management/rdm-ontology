@@ -2,21 +2,25 @@
    {
       "scheme":"DOI",
       "system":"Digital object identifier",
-      "urlPrefix":"https://doi.org/"
+      "urlPrefix":"https://doi.org/",
+      "example":"10.5438/n138-z3mk"
    },
    {
       "scheme":"ePIC",
       "system":"European persistent identifier consortium",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk"
    },
    {
       "scheme":"URL",
       "system":"Uniform Resource Identifier",
-      "urlPrefix":null
+      "urlPrefix":null,
+      "example:":"https://github.com/datacite/bolognese"
    }
 ]
