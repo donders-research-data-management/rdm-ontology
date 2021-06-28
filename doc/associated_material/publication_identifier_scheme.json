@@ -2,46 +2,55 @@
    {
       "scheme":"DOI",
       "system":"Digital object identifier",
-      "urlPrefix":"https://doi.org/"
+      "urlPrefix":"https://doi.org/",
+      "example":"10.5438/n138-z3mk"
    },
    {
       "scheme":"ePIC",
       "system":"European persistent identifier consortium",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk"
    },
    {
       "scheme":"PMID",
       "system":"PubMed",
-      "urlPrefix":"http://www.ncbi.nlm.nih.gov/pubmed/"
+      "urlPrefix":"http://www.ncbi.nlm.nih.gov/pubmed/",
+      "example":"10000000"
    },
    {
       "scheme":"arXiv",
       "system":"arXiv.org: e-print archive",
-      "urlPrefix":"http://arxiv.org/abs/"
+      "urlPrefix":"http://arxiv.org/abs/",
+      "example":"2001.00001"
    },
    {
       "scheme":"bioRxiv",
       "system":"bioRxiv.org: e-print archive",
-      "urlPrefix":"https://doi.org/10.1101/"
+      "urlPrefix":"https://doi.org/10.1101/",
+      "example":"088278v5"
    },
    {
       "scheme":"PsyArXiv",
       "system":"PsyArXiv.com: e-print archive",
-      "urlPrefix":"https://psyarxiv.com/"
+      "urlPrefix":"https://psyarxiv.com/",
+      "example":"rym2d"
    },
    {
       "scheme":"ISBN",
       "system":"International Standard Book Number",
-      "urlPrefix":null
+      "urlPrefix":null,
+      "example":"9780128244753"
    },
    {
       "scheme":"URL",
       "system":"Uniform Resource Identifier",
-      "urlPrefix":null
+      "urlPrefix":null,
+      "example:":"https://github.com/datacite/bolognese"
    }
 ]
