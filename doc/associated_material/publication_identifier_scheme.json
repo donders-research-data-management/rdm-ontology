@@ -3,43 +3,57 @@
       "scheme":"DOI",
       "system":"Digital object identifier",
       "urlPrefix":"https://doi.org/",
-      "example":"10.5438/n138-z3mk"
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^10\\.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
+      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}"
    },
    {
       "scheme":"ePIC",
       "system":"European persistent identifier consortium",
       "urlPrefix":"http://hdl.handle.net/",
-      "example":"10.5438/n138-z3mk"
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]*(?:.[0-9]+)*/.*+$",
+      "format":"{prefix: numbers and periods}/{multiple characters}"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
       "urlPrefix":"http://hdl.handle.net/",
-      "example":"10.5438/n138-z3mk"
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]*(?:.[0-9]+)*/.*+$",
+      "format":"{prefix: numbers and periods}/{multiple characters}"
    },
    {
       "scheme":"PMID",
       "system":"PubMed",
       "urlPrefix":"http://www.ncbi.nlm.nih.gov/pubmed/",
-      "example":"10000000"
+      "example":"10000000",
+      "pattern":"^[0-9]{0,7}[1-9]$",
+      "format":"{1 to 8 numbers}, optional version: .{number}"
    },
    {
       "scheme":"arXiv",
       "system":"arXiv.org: e-print archive",
       "urlPrefix":"http://arxiv.org/abs/",
-      "example":"2001.00001"
+      "example":"2001.00001",
+      "pattern":"^(?:[a-z]+.?[a-zA-Z]*/)?[0-9]{2}(?:0[1-9]|1[0-2])(?:[0-9]{3,4}|.[0-9]{4,5}(?:v[0-9]+)*)$",
+      "format":"{YYMM: year and month}.{4-5 numbers with leading zeros}, optional version: v{number}"
    },
    {
       "scheme":"bioRxiv",
       "system":"bioRxiv.org: e-print archive",
       "urlPrefix":"https://doi.org/10.1101/",
-      "example":"088278v5"
+      "example":"088278v5",
+      "pattern":"^[-._;()/:a-zA-Z0-9]+$",
+      "format":"{multiple: numbers, alphanumerical characters or -._;()/:}"
    },
    {
       "scheme":"PsyArXiv",
       "system":"PsyArXiv.com: e-print archive",
       "urlPrefix":"https://psyarxiv.com/",
-      "example":"rym2d"
+      "example":"rym2d",
+      "pattern":"[a-z0-9]+",
+      "format":"{multiple lowercase alphanumerical characters and numbers}"
    },
    {
       "scheme":"ISBN",
