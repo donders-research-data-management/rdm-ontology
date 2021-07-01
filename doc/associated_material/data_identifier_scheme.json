@@ -3,19 +3,25 @@
       "scheme":"DOI",
       "system":"Digital object identifier",
       "urlPrefix":"https://doi.org/",
-      "example":"10.5438/n138-z3mk"
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^10\\.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
+      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}"
    },
    {
       "scheme":"ePIC",
       "system":"European persistent identifier consortium",
       "urlPrefix":"http://hdl.handle.net/",
-      "example":"10.5438/n138-z3mk"
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]*(?:.[0-9]+)*/.*+$",
+      "format":"{prefix: numbers and periods}/{multiple characters}"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
       "urlPrefix":"http://hdl.handle.net/",
-      "example":"10.5438/n138-z3mk"
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]*(?:.[0-9]+)*/.*+$",
+      "format":"{prefix: numbers and periods}/{multiple characters}"
    },
    {
       "scheme":"URL",
