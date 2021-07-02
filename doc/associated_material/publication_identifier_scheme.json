@@ -58,7 +58,7 @@
    {
       "scheme":"ISBN",
       "system":"International Standard Book Number",
-      "urlPrefix":null,
+      "urlPrefix":"https://www.worldcat.org/search?q=",
       "example":"9780128244753"
    },
    {
