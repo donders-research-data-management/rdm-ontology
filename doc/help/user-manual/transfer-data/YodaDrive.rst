@@ -25,7 +25,7 @@ Install YodaDrive
    *	*Drive name*: Enter a name for your Yoda Network Drive
    *	*Drive letter*: Select a drive letter - any free letter is okay
    *	*URL*: Either enter ${repositoryWebdavUrl} to access all your collections or enter the link to a specific collection you are working on
-   *	*Login*: Your u-number followed by @ru.nl or your z-number followed by @radboudumc.nl
+   *	*Login*: Your u-number followed by @ru.nl or your z-number followed by @umcn.nl
    *	*Password*: Your password belonging to your RU account
    *	Check the following boxes: *Remember Password* (do NOT check this box if you are on a publicly accessible PC or laptop), *Auto-mount drive* and *Start with Windows* 
 
