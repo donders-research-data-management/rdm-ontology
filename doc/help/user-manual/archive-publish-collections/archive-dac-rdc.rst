@@ -14,7 +14,7 @@ Only the manager of a collection can archive a collection. To archive a DAC or a
 
 .. figure:: images/RDR_archive_review_internal.png
 
-Details of the collection have to be specified :ref:`see 1.2 <edit-your-collection-details>` before the collection can be archived. The system will give you an error message if some required information is missing.
+Details of the collection have to be specified :ref:`see 1.2 <edit-your-collection-details>` before the collection can be archived. The system will give you an error message if some required information is missing. For Donders Institute researchers, we recommend that you select ‘life sciences’ under the audience field. Also, if you want to add more specific information, you can use the keyword fields to add for example ‘neuroscience’.
 
 A collection can be archived if all the required details are specified. Then you can confirm the switch to "reviewable internal".
 
