@@ -15,7 +15,7 @@ By publishing a DSC, your research data are made publicly available. If you do n
 
 When publishing the DSC, you also need to select your "data use agreement" :ref:`(see this FAQ) <faq-data-use-agreement>`
 
-To publish a DSC, you must initially follow the same internal review procedure as described for archiving a :ref:`Data Acquisition Collection (DAC) or a Research Documentation Collection (RDC)<archive-dac-rdc>`.
+To publish a DSC, you must initially follow the same internal review procedure as described for archiving a :ref:`Data Acquisition Collection (DAC) or a Research Documentation Collection (RDC)<archive-dac-rdc>`. **Note:** For Donders Institute researchers, we recommend that you select ‘life sciences’ under the audience field. Also, if you want to add more specific information, you can use the keyword fields to add for example ‘neuroscience’.
 
 .. note::
 
