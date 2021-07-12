@@ -5,7 +5,7 @@
       "urlPrefix":"https://doi.org/",
       "example":"10.5438/n138-z3mk",
       "pattern":"^10\\.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
-      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}"
+      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"ePIC",
@@ -13,7 +13,7 @@
       "urlPrefix":"http://hdl.handle.net/",
       "example":"10.5438/n138-z3mk",
       "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
-      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}"
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"handle",
@@ -21,7 +21,7 @@
       "urlPrefix":"http://hdl.handle.net/",
       "example":"10.5438/n138-z3mk",
       "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
-      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}"
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"PMID",
@@ -29,7 +29,7 @@
       "urlPrefix":"http://www.ncbi.nlm.nih.gov/pubmed/",
       "example":"10000000",
       "pattern":"^[0-9]{0,7}[1-9]$",
-      "format":"{1 to 8 numbers}, optional version: .{number}"
+      "format":"{1 to 8 numbers}, optional version: .{number}, for example 10000000"
    },
    {
       "scheme":"arXiv",
@@ -37,7 +37,7 @@
       "urlPrefix":"http://arxiv.org/abs/",
       "example":"2001.00001",
       "pattern":"^(?:[a-z]+.?[a-zA-Z]*/)?[0-9]{2}(?:0[1-9]|1[0-2])(?:[0-9]{3,4}|.[0-9]{4,5}(?:v[0-9]+)*)$",
-      "format":"{YYMM: year and month}.{4-5 numbers with leading zeros}{optional version specifier: vN}"
+      "format":"{YYMM: year and month}.{4-5 numbers with leading zeros}{optional version specifier: vN}, for example 2001.00001"
    },
    {
       "scheme":"bioRxiv",
@@ -45,7 +45,7 @@
       "urlPrefix":"https://doi.org/10.1101/",
       "example":"2020.10.14.340083",
       "pattern":"^[-._;()/:a-zA-Z0-9]+$",
-      "format":"{multiple: numbers, alphanumerical characters or -._;()/:}"
+      "format":"{multiple: numbers, alphanumerical characters or -._;()/:}, for example 2020.10.14.340083"
    },
    {
       "scheme":"PsyArXiv",
@@ -53,7 +53,7 @@
       "urlPrefix":"https://psyarxiv.com/",
       "example":"rym2d",
       "pattern":"[a-z0-9]+",
-      "format":"{multiple lowercase alphanumerical characters and numbers}"
+      "format":"{multiple lowercase alphanumerical characters and numbers}, for example rym2d"
    },
    {
       "scheme":"ISBN",

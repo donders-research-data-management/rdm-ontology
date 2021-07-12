@@ -5,7 +5,7 @@
       "urlPrefix":"https://clinicaltrials.gov/ct2/show/",
       "example":"NCT00001000",
       "pattern":"(?:NCT)[0-9]{8}",
-      "format":"NCT{8 digit number}"
+      "format":"NCT{8 digit number}, for example NCT00001000"
    },
    {
       "scheme":"DOI",
@@ -13,7 +13,7 @@
       "urlPrefix":"https://doi.org/",
       "example":"10.5438/n138-z3mk",
       "pattern":"^10\\.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
-      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}"
+      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"ePIC",
@@ -21,7 +21,7 @@
       "urlPrefix":"http://hdl.handle.net/",
       "example":"10.5438/n138-z3mk",
       "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
-      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}"
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"handle",
@@ -29,7 +29,7 @@
       "urlPrefix":"http://hdl.handle.net/",
       "example":"10.5438/n138-z3mk",
       "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
-      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}"
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"URL",
