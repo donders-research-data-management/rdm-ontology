@@ -12,16 +12,16 @@
       "system":"European persistent identifier consortium",
       "urlPrefix":"http://hdl.handle.net/",
       "example":"10.5438/n138-z3mk",
-      "pattern":"^[0-9]*(?:.[0-9]+)*/.*+$",
-      "format":"{prefix: numbers and periods}/{multiple characters}"
+      "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
       "urlPrefix":"http://hdl.handle.net/",
       "example":"10.5438/n138-z3mk",
-      "pattern":"^[0-9]*(?:.[0-9]+)*/.*+$",
-      "format":"{prefix: numbers and periods}/{multiple characters}"
+      "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}"
    },
    {
       "scheme":"URL",
