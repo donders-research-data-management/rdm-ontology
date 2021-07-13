@@ -2,26 +2,39 @@
    {
       "scheme":"ClinicalTrials",
       "system":"Clinical trials",
-      "urlPrefix":"https://clinicaltrials.gov/ct2/show/"
+      "urlPrefix":"https://clinicaltrials.gov/ct2/show/",
+      "example":"NCT00001000",
+      "pattern":"(?:NCT)[0-9]{8}",
+      "format":"NCT{8 digit number}, for example NCT00001000"
    },
    {
       "scheme":"DOI",
       "system":"Digital object identifier",
-      "urlPrefix":"https://doi.org/"
+      "urlPrefix":"https://doi.org/",
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^10\\.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
+      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"ePIC",
       "system":"European persistent identifier consortium",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"URL",
       "system":"Uniform Resource Identifier",
-      "urlPrefix":null
+      "urlPrefix":null,
+      "example:":"https://github.com/datacite/bolognese"
    }
 ]
