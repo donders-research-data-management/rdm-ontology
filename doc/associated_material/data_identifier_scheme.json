@@ -26,7 +26,7 @@
    {
       "scheme":"URL",
       "system":"Uniform Resource Identifier",
-      "urlPrefix":"https://www.worldcat.org/search?q=",
+      "urlPrefix":null,
       "example:":"https://github.com/datacite/bolognese"
    }
 ]
