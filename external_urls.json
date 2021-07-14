@@ -22,7 +22,7 @@
   "editCollection.confirmSocialUser" : "/doc/editcollection/confirmsocialuser.html",
   "changeStateFromEditableToReviewableInternal" : "/doc/changestate/editabletoreviewableinternal.html",
   "changeStateFromReviewableInternalToEditable" : "/doc/changestate/reviewabletoeditable.html",
-  "changeStateFromReviewableInternalToReviewableExternal" : "/doc/changestate/editabletoreviewableinternal.html",
+  "changeStateFromReviewableInternalToReviewableExternal" : "/doc/changestate/reviewableinternaltoreviewableexternal.html",
   "changeStateFromReviewableExternalToPublished" : "/doc/changestate/reviewableexternaltopublished.html",
   "changeStateFromReviewableExternalToEditable" : "/doc/changestate/reviewabletoeditable.html",
   "changeStateFromReviewableInternalToArchived" : "/doc/changestate/reviewableexternaltopublished.html",
