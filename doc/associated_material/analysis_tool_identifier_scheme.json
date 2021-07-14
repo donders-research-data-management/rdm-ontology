@@ -35,6 +35,6 @@
       "scheme":"URL",
       "system":"Uniform Resource Identifier",
       "urlPrefix":null,
-      "example:":"https://github.com/datacite/bolognese"
+      "example":"https:\/\/github.com/datacite/bolognese"
    }
 ]
