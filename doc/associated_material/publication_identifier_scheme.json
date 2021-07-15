@@ -2,46 +2,69 @@
    {
       "scheme":"DOI",
       "system":"Digital object identifier",
-      "urlPrefix":"https://doi.org/"
+      "urlPrefix":"https://doi.org/",
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^10\\.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
+      "format":"10.{4 to 9 numbers}/{multiple: numbers, alphanumerical characters or -._;()/:}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"ePIC",
       "system":"European persistent identifier consortium",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"handle",
       "system":"Handle persistent identifier",
-      "urlPrefix":"http://hdl.handle.net/"
+      "urlPrefix":"http://hdl.handle.net/",
+      "example":"10.5438/n138-z3mk",
+      "pattern":"^[0-9]+(?:.[0-9]+)*/.+$",
+      "format":"{prefix: numbers, optionally seperated by periods}/{multiple characters}, for example 10.5438/n138-z3mk"
    },
    {
       "scheme":"PMID",
       "system":"PubMed",
-      "urlPrefix":"http://www.ncbi.nlm.nih.gov/pubmed/"
+      "urlPrefix":"http://www.ncbi.nlm.nih.gov/pubmed/",
+      "example":"10000000",
+      "pattern":"^[0-9]{0,7}[1-9]$",
+      "format":"{1 to 8 numbers}, optional version: .{number}, for example 10000000"
    },
    {
       "scheme":"arXiv",
       "system":"arXiv.org: e-print archive",
-      "urlPrefix":"http://arxiv.org/abs/"
+      "urlPrefix":"http://arxiv.org/abs/",
+      "example":"2001.00001",
+      "pattern":"^(?:[a-z]+.?[a-zA-Z]*/)?[0-9]{2}(?:0[1-9]|1[0-2])(?:[0-9]{3,4}|.[0-9]{4,5}(?:v[0-9]+)*)$",
+      "format":"{YYMM: year and month}.{4-5 numbers with leading zeros}{optional version specifier: vN}, for example 2001.00001"
    },
    {
       "scheme":"bioRxiv",
       "system":"bioRxiv.org: e-print archive",
-      "urlPrefix":"https://doi.org/10.1101/"
+      "urlPrefix":"https://doi.org/10.1101/",
+      "example":"2020.10.14.340083",
+      "pattern":"^[-._;()/:a-zA-Z0-9]+$",
+      "format":"{multiple: numbers, alphanumerical characters or -._;()/:}, for example 2020.10.14.340083"
    },
    {
       "scheme":"PsyArXiv",
       "system":"PsyArXiv.com: e-print archive",
-      "urlPrefix":"https://psyarxiv.com/"
+      "urlPrefix":"https://psyarxiv.com/",
+      "example":"rym2d",
+      "pattern":"[a-z0-9]+",
+      "format":"{multiple lowercase alphanumerical characters and numbers}, for example rym2d"
    },
    {
       "scheme":"ISBN",
       "system":"International Standard Book Number",
-      "urlPrefix":null
+      "urlPrefix":"https://www.worldcat.org/search?q=",
+      "example":"9780128244753"
    },
    {
       "scheme":"URL",
       "system":"Uniform Resource Identifier",
-      "urlPrefix":null
+      "urlPrefix":null,
+      "example":"https:\/\/github.com/datacite/bolognese"
    }
 ]
